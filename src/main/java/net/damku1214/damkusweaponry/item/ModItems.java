@@ -11,6 +11,12 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, DamkusWeaponry.MOD_ID);
 
+    public static final RegistryObject<Item> JADE = ITEMS.register("jade",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DAMKUS_WEAPONRY)));
+
+    public static final RegistryObject<Item> REFINED_JADE = ITEMS.register("refined_jade",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DAMKUS_WEAPONRY)));
+
     public static final RegistryObject<Item> JADE_VINE_SICKLE = ITEMS.register("jade_vine_sickle",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DAMKUS_WEAPONRY)));
 
