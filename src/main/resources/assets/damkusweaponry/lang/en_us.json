@@ -2,5 +2,7 @@
   "item.damkusweaponry.jade": "Jade",
   "item.damkusweaponry.jade_vine_sickle": "Jade Vine Sickle",
 
-  "itemGroup.damkusweaponry": "Damku's Weaponry"
+  "itemGroup.damkusweaponry": "Damku's Weaponry",
+
+  "effect.damkusweaponry.skandhas_curse": "Skandha's Curse"
 }

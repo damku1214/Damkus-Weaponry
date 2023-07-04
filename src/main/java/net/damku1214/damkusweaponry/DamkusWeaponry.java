@@ -1,5 +1,6 @@
 package net.damku1214.damkusweaponry;
 
+import net.damku1214.damkusweaponry.effect.ModEffects;
 import net.damku1214.damkusweaponry.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -31,6 +32,8 @@ public class DamkusWeaponry {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+
+        ModEffects.register(eventBus);
 
         eventBus.addListener(this::setup);
 
