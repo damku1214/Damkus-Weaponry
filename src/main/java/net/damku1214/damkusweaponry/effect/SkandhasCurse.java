@@ -12,14 +12,18 @@ public class SkandhasCurse extends MobEffect {
 
     @Override
     public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
-        if (isDurationEffectTick(1, 1)) {
-            pLivingEntity.hurt(DamageSource.MAGIC, pAmplifier * 2);
+        if (isDurationEffectTick(0, 1)) {
+            pLivingEntity.hurt(DamageSource.MAGIC, pAmplifier * 3);
         }
         super.applyEffectTick(pLivingEntity, pAmplifier);
     }
 
     @Override
     public boolean isDurationEffectTick(int pDuration, int pAmplifier) {
-        return true;
+        if (pDuration > 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
