@@ -13,7 +13,7 @@ public class ModEffects {
             = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, DamkusWeaponry.MOD_ID);
 
     public static final RegistryObject<MobEffect> SKANDHAS_CURSE = MOB_EFFECTS.register("skandhas_curse",
-            () -> new SkandhasCurse(MobEffectCategory.HARMFUL, 2671665));
+            () -> new SkandhasCurse(MobEffectCategory.HARMFUL, 16730698));
 
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
