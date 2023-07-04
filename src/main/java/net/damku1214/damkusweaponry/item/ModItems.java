@@ -15,9 +15,6 @@ public class ModItems {
     public static final RegistryObject<Item> JADE = ITEMS.register("jade",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DAMKUS_WEAPONRY)));
 
-    public static final RegistryObject<Item> REFINED_JADE = ITEMS.register("refined_jade",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DAMKUS_WEAPONRY)));
-
     public static final RegistryObject<Item> JADE_VINE_SICKLE = ITEMS.register("jade_vine_sickle",
             () -> new SwordItem(ModTiers.JADE,1, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.DAMKUS_WEAPONRY)));
