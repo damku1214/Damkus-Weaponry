@@ -1,29 +1,15 @@
 package net.damku1214.damkusweaponry.effect;
 
+import net.damku1214.damkusweaponry.event.ModEvents;
+import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraftforge.event.entity.living.LivingHurtEvent;
 
 public class SkandhasCurse extends MobEffect {
     public SkandhasCurse(MobEffectCategory mobEffectCategory, int color) {
         super(mobEffectCategory, color);
-    }
-
-    @Override
-    public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
-        if (isDurationEffectTick(0, 1)) {
-            pLivingEntity.hurt(DamageSource.MAGIC, pAmplifier * 3);
-        }
-        super.applyEffectTick(pLivingEntity, pAmplifier);
-    }
-
-    @Override
-    public boolean isDurationEffectTick(int pDuration, int pAmplifier) {
-        if (pDuration > 0) {
-            return true;
-        } else {
-            return false;
-        }
     }
 }
