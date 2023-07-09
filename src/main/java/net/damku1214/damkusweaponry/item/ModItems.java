@@ -1,6 +1,7 @@
 package net.damku1214.damkusweaponry.item;
 
 import net.damku1214.damkusweaponry.DamkusWeaponry;
+import net.damku1214.damkusweaponry.item.custom.JadeVineSickleItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -16,7 +17,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DAMKUS_WEAPONRY)));
 
     public static final RegistryObject<Item> JADE_VINE_SICKLE = ITEMS.register("jade_vine_sickle",
-            () -> new SwordItem(ModTiers.JADE,1, 1f,
+            () -> new JadeVineSickleItem(ModTiers.JADE,1, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.DAMKUS_WEAPONRY)));
 
 

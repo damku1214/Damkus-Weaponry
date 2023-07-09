@@ -4,11 +4,16 @@ import net.damku1214.damkusweaponry.DamkusWeaponry;
 import net.damku1214.damkusweaponry.effect.ModEffects;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingDamageEvent;
+import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.living.PotionEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+
+import javax.annotation.Nonnull;
 
 public class ModEvents {
 
@@ -30,7 +35,6 @@ public class ModEvents {
             if (event.getEntityLiving().hasEffect(ModEffects.SKANDHAS_CURSE.get())) {
                 event.getEntityLiving().setHealth(event.getEntityLiving().getHealth() - skandhaDamage);
             }
-
         }
     }
 }

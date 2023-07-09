@@ -1,0 +1,14 @@
+{
+  "jade_vine_sickle_use_short": {
+    "subtitle": "sounds.damkusweaponry.jade_vine_sickle_use_short",
+    "sounds": [
+      "damkusweaponry:jade_vine_sickle_use_short"
+    ]
+  },
+  "jade_vine_sickle_use_long": {
+    "subtitle": "sounds.damkusweaponry.jade_vine_sickle_use_long",
+    "sounds": [
+      "damkusweaponry:jade_vine_sickle_use_long"
+    ]
+  }
+}

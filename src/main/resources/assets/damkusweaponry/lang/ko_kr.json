@@ -4,5 +4,8 @@
 
   "itemGroup.damkusweaponry": "댐쿵이의 무기고",
 
-  "effect.damkusweaponry.skandhas_curse": "스칸다의 저주"
+  "effect.damkusweaponry.skandhas_curse": "스칸다의 저주",
+
+  "sounds.damkusweaponry.jade_vine_sickle_use_short": "비취 덩굴 낫을 휘두름",
+  "sounds.damkusweaponry.jade_vine_sickle_use_long": "비취 덩굴 낫을 강하게 휘두름"
 }
