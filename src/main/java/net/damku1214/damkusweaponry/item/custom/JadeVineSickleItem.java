@@ -3,8 +3,6 @@ package net.damku1214.damkusweaponry.item.custom;
 import net.damku1214.damkusweaponry.effect.ModEffects;
 import net.damku1214.damkusweaponry.particle.ModParticles;
 import net.damku1214.damkusweaponry.sound.ModSounds;
-import net.minecraft.core.particles.ParticleOptions;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundSource;
@@ -53,7 +51,7 @@ public class JadeVineSickleItem extends SwordItem {
             level.playSound((Player)null, entity.getX(), entity.getY(), entity.getZ(), ModSounds.JADE_VINE_SICKLE_USE_SHORT.get(),
                     SoundSource.PLAYERS, 1.0F, 1.0F);
             // Particle method
-            jadeVineSickleShortParticles(level, entity);
+            bindingOfWisdomParticles(level, entity);
             // Add cooldown
             player.getCooldowns().addCooldown(this, 100);
         } else {
@@ -67,12 +65,14 @@ public class JadeVineSickleItem extends SwordItem {
             // Play sound
             level.playSound((Player)null, entity.getX(), entity.getY(), entity.getZ(), ModSounds.JADE_VINE_SICKLE_USE_LONG.get(),
                     SoundSource.PLAYERS, 1.0F, 1.0F);
+            //Particle method
+            triKarmaBacklashParticles(level, entity);
             // Add cooldown
             player.getCooldowns().addCooldown(this, 160);
         }
     }
 
-    private void jadeVineSickleShortParticles(Level level, LivingEntity entity) {
+    private void bindingOfWisdomParticles(Level level, LivingEntity entity) {
         // Loop of particles going in a circle, i = angle, angle 0 = player look direction (not sure)
         for (int i = 140; i > -100; -- i) {
             // Number multiplying the sin/cos at the very start = circle's radius
@@ -95,6 +95,63 @@ public class JadeVineSickleItem extends SwordItem {
                         entity.getZ() + d1, 2, 1, 0.5, 1, 0.0D);
                 ((ServerLevel)level).sendParticles(ModParticles.BINDING_OF_WISDOM_EXTRA2_PARTICLES.get(), entity.getX() + d0, entity.getY((0.5D) + (double) (-(i - 140)) / 400),
                         entity.getZ() + d1, 2, 1, 0.5, 1, 0.0D);
+            }
+        }
+    }
+
+    private void triKarmaBacklashParticles(Level level, LivingEntity entity) {
+        for (int r = 0; r < 5; r ++) {
+            switch (r) {
+                case (0) -> {
+                    for (int i = 0; i < 360; i ++) {
+                        double d0 = (double)(4 * -Mth.sin(i * ((float)Math.PI / 180F)));
+                        double d1 = (double)4 * Mth.cos(i * ((float)Math.PI / 180F));
+                        ((ServerLevel)level).sendParticles(ModParticles.TRI_KARMA_BACKLASH_EXTRA1_PARTICLES.get(), entity.getX() + d0, entity.getY(0.5D),
+                                entity.getZ() + d1, 1, 0, 0, 0, 0.0D);
+                    }
+                }
+                case (1) -> {
+                    for (int i = 0; i < 360; i ++) {
+                        double d0 = (double)(4.5 * -Mth.sin(i * ((float)Math.PI / 180F)));
+                        double d1 = (double)4.5 * Mth.cos(i * ((float)Math.PI / 180F));
+                        ((ServerLevel)level).sendParticles(ModParticles.TRI_KARMA_BACKLASH_EXTRA2_PARTICLES.get(), entity.getX() + d0, entity.getY(0.5D),
+                                entity.getZ() + d1, 1, 0, 0, 0, 0.0D);
+                    }
+                }
+                case (2) -> {
+                    for (int i = 0; i < 360; i ++) {
+                        double d0 = (double)(5 * -Mth.sin(i * ((float)Math.PI / 180F)));
+                        double d1 = (double)5 * Mth.cos(i * ((float)Math.PI / 180F));
+                        ((ServerLevel)level).sendParticles(ModParticles.TRI_KARMA_BACKLASH_EXTRA3_PARTICLES.get(), entity.getX() + d0, entity.getY(0.5D),
+                                entity.getZ() + d1, 1, 0, 0, 0, 0.0D);
+                    }
+                }
+                case (3) -> {
+                    for (int i = 0; i < 360; i ++) {
+                        double d0 = (double)(5.5 * -Mth.sin(i * ((float)Math.PI / 180F)));
+                        double d1 = (double)5.5 * Mth.cos(i * ((float)Math.PI / 180F));
+                        ((ServerLevel)level).sendParticles(ModParticles.TRI_KARMA_BACKLASH_EXTRA4_PARTICLES.get(), entity.getX() + d0, entity.getY(0.5D),
+                                entity.getZ() + d1, 1, 0, 0, 0, 0.0D);
+                    }
+                }
+                case (4) -> {
+                    for (int i = 0; i < 360; i ++) {
+                        double d0 = (double)(6 * -Mth.sin(i * ((float)Math.PI / 180F)));
+                        double d1 = (double)6 * Mth.cos(i * ((float)Math.PI / 180F));
+                        ((ServerLevel)level).sendParticles(ModParticles.TRI_KARMA_BACKLASH_MAIN_PARTICLES.get(), entity.getX() + d0, entity.getY(0.5D),
+                                entity.getZ() + d1, 1, 0, 0, 0, 0.0D);
+                        if (i % 30 == 0) {
+                            ((ServerLevel) level).sendParticles(ModParticles.BINDING_OF_WISDOM_EXTRA1_PARTICLES.get(), entity.getX() + d0, entity.getY(0.5D),
+                                    entity.getZ() + d1, 1, 1, 0.5, 1, 0.0D);
+                            ((ServerLevel) level).sendParticles(ModParticles.BINDING_OF_WISDOM_EXTRA2_PARTICLES.get(), entity.getX() + d0, entity.getY(0.5D),
+                                    entity.getZ() + d1, 1, 1, 0.5, 1, 0.0D);
+                        }
+                    }
+                    ((ServerLevel) level).sendParticles(ModParticles.BINDING_OF_WISDOM_EXTRA1_PARTICLES.get(), entity.getX(), entity.getY(0.5D),
+                            entity.getZ(), 10, 0.5, 0.5, 0.5, 0.5D);
+                    ((ServerLevel) level).sendParticles(ModParticles.BINDING_OF_WISDOM_EXTRA2_PARTICLES.get(), entity.getX(), entity.getY(0.5D),
+                            entity.getZ(), 10, 0.5, 0.5, 0.5, 0.5D);
+                }
             }
         }
     }
