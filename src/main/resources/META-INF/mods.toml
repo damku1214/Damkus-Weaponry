@@ -29,16 +29,16 @@ displayName="Damku's Weaponry" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this example mod goes to Java" #optional
+credits="Me and myself" #optional
 # A text field displayed in the mod UI
 authors="damku1214 (댐쿵이)" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This is a long form description of the mod. You can write whatever you want here
+A very, very lightweight mod that adds a few weapons (currently 1) with their own unique abilities to the game!
+Each weapon is a parody of a character/game, wouldn't be too hard to notice the reference, it's pretty obvious.
 
-Have some lorem ipsum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sagittis luctus odio eu tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque volutpat ligula eget lacus auctor sagittis. In hac habitasse platea dictumst. Nunc gravida elit vitae sem vehicula efficitur. Donec mattis ipsum et arcu lobortis, eleifend sagittis sem rutrum. Cras pharetra quam eget posuere fermentum. Sed id tincidunt justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+몇가지 능력을 가지고 있는 무기들을 (현재는 1개) 추가해주는 아주, 아주 가벼운 모드입니다.
+각 무기는 특정 캐릭터/게임을 패러디한거니, 한 번 찾아보시는 것도 추천합니다. 굉장히 뻔해서 찾기 어렵지 않을겁니다 ㅎㅎ
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.damkusweaponry]] #optional
