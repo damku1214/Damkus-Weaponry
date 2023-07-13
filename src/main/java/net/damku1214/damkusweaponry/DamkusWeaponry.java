@@ -2,9 +2,11 @@ package net.damku1214.damkusweaponry;
 
 import net.damku1214.damkusweaponry.effect.ModEffects;
 import net.damku1214.damkusweaponry.enchantment.ModEnchantments;
+import net.damku1214.damkusweaponry.item.ModCreativeModeTabs;
 import net.damku1214.damkusweaponry.item.ModItems;
 import net.damku1214.damkusweaponry.particle.ModParticles;
 import net.damku1214.damkusweaponry.sound.ModSounds;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -26,6 +28,8 @@ public class DamkusWeaponry {
 
     public DamkusWeaponry() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(eventBus);
 
         ModItems.register(eventBus);
 
@@ -49,7 +53,13 @@ public class DamkusWeaponry {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.JADE);
+            event.accept(ModItems.JADE_HANDLE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.JADE_VINE_SICKLE);
+        }
     }
 
     @SubscribeEvent

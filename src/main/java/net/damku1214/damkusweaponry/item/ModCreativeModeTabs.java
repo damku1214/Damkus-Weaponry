@@ -13,9 +13,10 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB,
             DamkusWeaponry.MOD_ID);
 
-    public static RegistryObject<CreativeModeTab> DAMKUS_WEAPONRY = CREATIVE_MODE_TABS.register("damkus_weaponry", () ->
+    public static final RegistryObject<CreativeModeTab> DAMKUS_WEAPONRY = CREATIVE_MODE_TABS.register("damkus_weaponry", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.DAMKU.get()))
-                    .title(Component.translatable("itemGroup.damkusweaponry")).displayItems((pParameters, pOutput) -> {
+                    .title(Component.translatable("creativetab.damkusweaponry"))
+                    .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.JADE_VINE_SICKLE.get());
                         pOutput.accept(ModItems.JADE.get());
                         pOutput.accept(ModItems.JADE_HANDLE.get());
