@@ -13,12 +13,15 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, DamkusWeaponry.MOD_ID);
 
-    public static final RegistryObject<Item> JADE = ITEMS.register("jade",
+    public static final RegistryObject<Item> DAMKU = ITEMS.register("damku",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DAMKUS_WEAPONRY)));
-
     public static final RegistryObject<Item> JADE_VINE_SICKLE = ITEMS.register("jade_vine_sickle",
             () -> new JadeVineSickleItem(ModTiers.JADE,1, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.DAMKUS_WEAPONRY)));
+    public static final RegistryObject<Item> JADE = ITEMS.register("jade",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DAMKUS_WEAPONRY)));
+    public static final RegistryObject<Item> JADE_HANDLE = ITEMS.register("jade_handle",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.DAMKUS_WEAPONRY)));
 
 
 

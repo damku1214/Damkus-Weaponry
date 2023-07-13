@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab DAMKUS_WEAPONRY = new CreativeModeTab("damkusweaponry") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.JADE_VINE_SICKLE.get());
+            return new ItemStack(ModItems.DAMKU.get());
         }
     };
 }
