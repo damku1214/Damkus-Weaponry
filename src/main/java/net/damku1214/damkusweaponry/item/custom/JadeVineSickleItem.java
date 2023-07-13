@@ -48,7 +48,7 @@ public class JadeVineSickleItem extends SwordItem {
             nearbyEntities.forEach(m -> m.hurt(DamageSource.MAGIC, 5));
             nearbyEntities.forEach(m -> m.addEffect(new MobEffectInstance(ModEffects.SKANDHAS_CURSE.get(), 500, 0)));
             // Play sound
-            level.playSound((Player)null, entity.getX(), entity.getY(), entity.getZ(), ModSounds.JADE_VINE_SICKLE_USE_SHORT.get(),
+            level.playSound(null, entity.getX(), entity.getY(), entity.getZ(), ModSounds.JADE_VINE_SICKLE_USE_SHORT.get(),
                     SoundSource.PLAYERS, 1.0F, 1.0F);
             // Particle method
             bindingOfWisdomParticles(level, entity);
@@ -63,7 +63,7 @@ public class JadeVineSickleItem extends SwordItem {
             // Hurt enemies with Skandha's Curse again (extra damage)
             nearbySkandhaEntities.stream().filter(m -> m.hasEffect(ModEffects.SKANDHAS_CURSE.get())).forEach(m -> m.setHealth(m.getHealth() - 1));
             // Play sound
-            level.playSound((Player)null, entity.getX(), entity.getY(), entity.getZ(), ModSounds.JADE_VINE_SICKLE_USE_LONG.get(),
+            level.playSound(null, entity.getX(), entity.getY(), entity.getZ(), ModSounds.JADE_VINE_SICKLE_USE_LONG.get(),
                     SoundSource.PLAYERS, 1.0F, 1.0F);
             //Particle method
             triKarmaBacklashParticles(level, entity);
@@ -76,12 +76,12 @@ public class JadeVineSickleItem extends SwordItem {
         // Loop of particles going in a circle, i = angle, angle 0 = player look direction (not sure)
         for (int i = 140; i > -100; -- i) {
             // Number multiplying the sin/cos at the very start = circle's radius
-            double d0 = (double)(5.3 * -Mth.sin((entity.getYRot() + i) * ((float)Math.PI / 180F)));
-            double d1 = (double)5.3 * Mth.cos((entity.getYRot() + i) * ((float)Math.PI / 180F));
-            double d2 = (double)(5 * -Mth.sin((entity.getYRot() + i) * ((float)Math.PI / 180F)));
-            double d3 = (double)5 * Mth.cos((entity.getYRot() + i) * ((float)Math.PI / 180F));
-            double d4 = (double)(4.7 * -Mth.sin((entity.getYRot() + i) * ((float)Math.PI / 180F)));
-            double d5 = (double)4.7 * Mth.cos((entity.getYRot() + i) * ((float)Math.PI / 180F));
+            double d0 = (5.3 * -Mth.sin((entity.getYRot() + i) * ((float)Math.PI / 180F)));
+            double d1 = 5.3 * Mth.cos((entity.getYRot() + i) * ((float)Math.PI / 180F));
+            double d2 = (5 * -Mth.sin((entity.getYRot() + i) * ((float)Math.PI / 180F)));
+            double d3 = 5 * Mth.cos((entity.getYRot() + i) * ((float)Math.PI / 180F));
+            double d4 = (4.7 * -Mth.sin((entity.getYRot() + i) * ((float)Math.PI / 180F)));
+            double d5 = 4.7 * Mth.cos((entity.getYRot() + i) * ((float)Math.PI / 180F));
             if (i % 7 == 0) {
                 ((ServerLevel)level).sendParticles(ModParticles.BINDING_OF_WISDOM_BG_PARTICLES.get(), entity.getX() + d2, entity.getY((0.5D) + (double) (-(i - 140)) / 400),
                         entity.getZ() + d3, 1, 0, 0, 0, 0.0D);
@@ -104,40 +104,40 @@ public class JadeVineSickleItem extends SwordItem {
             switch (r) {
                 case (0) -> {
                     for (int i = 0; i < 360; i ++) {
-                        double d0 = (double)(4 * -Mth.sin(i * ((float)Math.PI / 180F)));
-                        double d1 = (double)4 * Mth.cos(i * ((float)Math.PI / 180F));
+                        double d0 = (4 * -Mth.sin(i * ((float)Math.PI / 180F)));
+                        double d1 = 4 * Mth.cos(i * ((float)Math.PI / 180F));
                         ((ServerLevel)level).sendParticles(ModParticles.TRI_KARMA_BACKLASH_EXTRA1_PARTICLES.get(), entity.getX() + d0, entity.getY(0.5D),
                                 entity.getZ() + d1, 1, 0, 0, 0, 0.0D);
                     }
                 }
                 case (1) -> {
                     for (int i = 0; i < 360; i ++) {
-                        double d0 = (double)(4.5 * -Mth.sin(i * ((float)Math.PI / 180F)));
-                        double d1 = (double)4.5 * Mth.cos(i * ((float)Math.PI / 180F));
+                        double d0 = (4.5 * -Mth.sin(i * ((float)Math.PI / 180F)));
+                        double d1 = 4.5 * Mth.cos(i * ((float)Math.PI / 180F));
                         ((ServerLevel)level).sendParticles(ModParticles.TRI_KARMA_BACKLASH_EXTRA2_PARTICLES.get(), entity.getX() + d0, entity.getY(0.5D),
                                 entity.getZ() + d1, 1, 0, 0, 0, 0.0D);
                     }
                 }
                 case (2) -> {
                     for (int i = 0; i < 360; i ++) {
-                        double d0 = (double)(5 * -Mth.sin(i * ((float)Math.PI / 180F)));
-                        double d1 = (double)5 * Mth.cos(i * ((float)Math.PI / 180F));
+                        double d0 = (5 * -Mth.sin(i * ((float)Math.PI / 180F)));
+                        double d1 = 5 * Mth.cos(i * ((float)Math.PI / 180F));
                         ((ServerLevel)level).sendParticles(ModParticles.TRI_KARMA_BACKLASH_EXTRA3_PARTICLES.get(), entity.getX() + d0, entity.getY(0.5D),
                                 entity.getZ() + d1, 1, 0, 0, 0, 0.0D);
                     }
                 }
                 case (3) -> {
                     for (int i = 0; i < 360; i ++) {
-                        double d0 = (double)(5.5 * -Mth.sin(i * ((float)Math.PI / 180F)));
-                        double d1 = (double)5.5 * Mth.cos(i * ((float)Math.PI / 180F));
+                        double d0 = (5.5 * -Mth.sin(i * ((float)Math.PI / 180F)));
+                        double d1 = 5.5 * Mth.cos(i * ((float)Math.PI / 180F));
                         ((ServerLevel)level).sendParticles(ModParticles.TRI_KARMA_BACKLASH_EXTRA4_PARTICLES.get(), entity.getX() + d0, entity.getY(0.5D),
                                 entity.getZ() + d1, 1, 0, 0, 0, 0.0D);
                     }
                 }
                 case (4) -> {
                     for (int i = 0; i < 360; i ++) {
-                        double d0 = (double)(6 * -Mth.sin(i * ((float)Math.PI / 180F)));
-                        double d1 = (double)6 * Mth.cos(i * ((float)Math.PI / 180F));
+                        double d0 = (6 * -Mth.sin(i * ((float)Math.PI / 180F)));
+                        double d1 = 6 * Mth.cos(i * ((float)Math.PI / 180F));
                         ((ServerLevel)level).sendParticles(ModParticles.TRI_KARMA_BACKLASH_MAIN_PARTICLES.get(), entity.getX() + d0, entity.getY(0.5D),
                                 entity.getZ() + d1, 1, 0, 0, 0, 0.0D);
                         if (i % 30 == 0) {

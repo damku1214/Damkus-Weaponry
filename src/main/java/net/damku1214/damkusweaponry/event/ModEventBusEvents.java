@@ -31,5 +31,9 @@ public class ModEventBusEvents {
                 TriKarmaBacklashExtra4Particles.Provider::new);
         Minecraft.getInstance().particleEngine.register(ModParticles.TRI_KARMA_BACKLASH_MAIN_PARTICLES.get(),
                 TriKarmaBacklashMainParticles.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ModParticles.DESTINY_ELUCIDATION_1_PARTICLES.get(),
+                DestinyElucidation1Particles.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ModParticles.DESTINY_ELUCIDATION_2_PARTICLES.get(),
+                DestinyElucidation2Particles.Provider::new);
     }
 }

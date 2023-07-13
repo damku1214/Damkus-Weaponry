@@ -1,6 +1,7 @@
 package net.damku1214.damkusweaponry;
 
 import net.damku1214.damkusweaponry.effect.ModEffects;
+import net.damku1214.damkusweaponry.enchantment.ModEnchantments;
 import net.damku1214.damkusweaponry.item.ModItems;
 import net.damku1214.damkusweaponry.particle.ModParticles;
 import net.damku1214.damkusweaponry.sound.ModSounds;
@@ -40,6 +41,8 @@ public class DamkusWeaponry {
         ModEffects.register(eventBus);
 
         ModParticles.register(eventBus);
+
+        ModEnchantments.register(eventBus);
 
         eventBus.addListener(this::setup);
 
