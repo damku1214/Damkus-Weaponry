@@ -13,6 +13,6 @@
 
   "enchantment.damkusweaponry.destiny_elucidation": "Destiny Elucidation",
 
-  "tooltip.damkusweaponry.jade_vine_sickle.tooltip": "Press §a§lSHIFT§r for More Information!",
+  "tooltip.damkusweaponry.jade_vine_sickle.tooltip": "Press §a§lSHIFT§r for More Information",
   "tooltip.damkusweaponry.jade_vine_sickle.tooltip.shift": "§eBinding of Wisdom §a§lRMB§r\nDeals §c5§r damage and applies the §dSkandha's Curse§r effect to entities that are in a 5 block radius. §7Cooldown 5s\n\n§eTri-Karma Backlash §a§lHold RMB§r\nDeals §c7§r damage to entities that are in a 7 block radius. Inflicts §c4§r extra damage to entities that has the §dSkandha's Curse§r effect. §7Cooldown 8s\n\n§dSkandha's Curse§r\nWhen an entity with this effect take damage, it takes extra damage depending on its max health. This damage negates effects such as resistance.\n§7Max health ~50 = §c10% §7of max health\nMax health 51~100 = §c5% §7of max health\nMax health 101~ = §c2% §7of max health\n\nIn order to wield such an amount of knowledge, the vessel shall meet the conditions. If overcapacitated, the vessel will face its laziness, ignorance, recklessness, or arrogance.\n"
 }
