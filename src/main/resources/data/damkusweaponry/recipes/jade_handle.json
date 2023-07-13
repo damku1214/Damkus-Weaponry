@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "pattern": [
+    "J",
+    "J"
+  ],
+  "key": {
+    "J": {
+      "item": "damkusweaponry:jade"
+    }
+  },
+  "result": {
+    "item": "damkusweaponry:jade_handle",
+    "count": 3
+  }
+}
