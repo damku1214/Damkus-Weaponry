@@ -15,16 +15,16 @@ public class ModEvents {
 
             float skandhaDamage;
 
-            if (event.getEntityLiving().getMaxHealth() <= 50) {
-                skandhaDamage = event.getEntityLiving().getMaxHealth() / 10;
-            } else if (event.getEntityLiving().getMaxHealth() <= 100) {
-                skandhaDamage = event.getEntityLiving().getMaxHealth() / 20;
+            if (event.getEntity().getMaxHealth() <= 50) {
+                skandhaDamage = event.getEntity().getMaxHealth() / 10;
+            } else if (event.getEntity().getMaxHealth() <= 100) {
+                skandhaDamage = event.getEntity().getMaxHealth() / 20;
             } else {
-                skandhaDamage = event.getEntityLiving().getMaxHealth() / 50;
+                skandhaDamage = event.getEntity().getMaxHealth() / 50;
             }
 
-            if (event.getEntityLiving().hasEffect(ModEffects.SKANDHAS_CURSE.get())) {
-                event.getEntityLiving().setHealth(event.getEntityLiving().getHealth() - skandhaDamage);
+            if (event.getEntity().hasEffect(ModEffects.SKANDHAS_CURSE.get())) {
+                event.getEntity().setHealth(event.getEntity().getHealth() - skandhaDamage);
             }
         }
     }

@@ -5,7 +5,6 @@ import net.damku1214.damkusweaponry.particle.ModParticles;
 import net.damku1214.damkusweaponry.sound.ModSounds;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundSource;
@@ -46,7 +45,7 @@ public class JadeVineSickleItem extends SwordItem {
             List<LivingEntity> nearbyEntities = level.getNearbyEntities(LivingEntity.class, TargetingConditions.forCombat(), player,
                     player.getBoundingBox().inflate(4));
             // Hurt & apply Skandha's Curse on enemies on list
-            nearbyEntities.forEach(m -> m.hurt(DamageSource.MAGIC, 5));
+            nearbyEntities.forEach(m -> m.hurt(m.damageSources().magic(), 5));
             nearbyEntities.forEach(m -> m.addEffect(new MobEffectInstance(ModEffects.SKANDHAS_CURSE.get(), 500, 0)));
             // Play sound
             level.playSound(null, entity.getX(), entity.getY(), entity.getZ(), ModSounds.JADE_VINE_SICKLE_USE_SHORT.get(),
@@ -60,7 +59,7 @@ public class JadeVineSickleItem extends SwordItem {
             List<LivingEntity> nearbySkandhaEntities = level.getNearbyEntities(LivingEntity.class, TargetingConditions.forCombat(), player,
                     player.getBoundingBox().inflate(6));
             // Hurt enemies on list
-            nearbySkandhaEntities.forEach(m -> m.hurt(DamageSource.MAGIC, 7));
+            nearbySkandhaEntities.forEach(m -> m.hurt(m.damageSources().magic(), 7));
             // Hurt enemies with Skandha's Curse again (extra damage)
             nearbySkandhaEntities.stream().filter(m -> m.hasEffect(ModEffects.SKANDHAS_CURSE.get())).forEach(m -> m.setHealth(m.getHealth() - 4));
             // Play sound
@@ -167,9 +166,9 @@ public class JadeVineSickleItem extends SwordItem {
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         if (Screen.hasShiftDown()) {
-            pTooltipComponents.add(new TranslatableComponent("tooltip.damkusweaponry.jade_vine_sickle.tooltip.shift"));
+            pTooltipComponents.add(Component.translatable("tooltip.damkusweaponry.jade_vine_sickle.tooltip.shift"));
         } else {
-            pTooltipComponents.add(new TranslatableComponent("tooltip.damkusweaponry.jade_vine_sickle.tooltip"));
+            pTooltipComponents.add(Component.translatable("tooltip.damkusweaponry.jade_vine_sickle.tooltip"));
         }
     }
 

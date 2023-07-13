@@ -4,7 +4,7 @@ import net.damku1214.damkusweaponry.DamkusWeaponry;
 import net.damku1214.damkusweaponry.particle.ModParticles;
 import net.damku1214.damkusweaponry.particle.custom.*;
 import net.minecraft.client.Minecraft;
-import net.minecraftforge.client.event.ParticleFactoryRegisterEvent;
+import net.minecraftforge.client.event.RegisterParticleProvidersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 public class ModEventBusEvents {
 
     @SubscribeEvent
-    public static void registerParticleFactories(final ParticleFactoryRegisterEvent event) {
+    public static void registerParticleFactories(final RegisterParticleProvidersEvent event) {
         Minecraft.getInstance().particleEngine.register(ModParticles.BINDING_OF_WISDOM_MAIN_PARTICLES.get(),
                 BindingOfWisdomMainParticles.Provider::new);
         Minecraft.getInstance().particleEngine.register(ModParticles.BINDING_OF_WISDOM_EXTRA1_PARTICLES.get(),

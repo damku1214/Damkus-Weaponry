@@ -1,8 +1,11 @@
 package net.damku1214.damkusweaponry.sound;
 
 import net.damku1214.damkusweaponry.DamkusWeaponry;
+import net.minecraft.client.resources.sounds.Sound;
+import net.minecraft.client.resources.sounds.SoundEventRegistration;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -19,7 +22,8 @@ public class ModSounds {
             registerSoundEvent("jade_vine_sickle_use_long");
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
-        return SOUND_EVENTS.register(name, () -> new SoundEvent(new ResourceLocation(DamkusWeaponry.MOD_ID, name)));
+        ResourceLocation id = new ResourceLocation(DamkusWeaponry.MOD_ID, name);
+        return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(id));
     }
 
     public static void register(IEventBus eventBus) {

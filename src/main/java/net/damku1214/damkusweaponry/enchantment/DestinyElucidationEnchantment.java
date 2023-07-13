@@ -17,8 +17,8 @@ public class DestinyElucidationEnchantment extends Enchantment {
 
     @Override
     public void doPostAttack(LivingEntity pAttacker, Entity pTarget, int pLevel) {
-        if (!pAttacker.level.isClientSide()) {
-            ServerLevel world = ((ServerLevel) pAttacker.level);
+        if (!pAttacker.level().isClientSide) {
+            ServerLevel world = ((ServerLevel) pAttacker.level());
             int affectChance = getRandomNumber();
             if (affectChance <= pLevel - 1) {
                 ((LivingEntity)pTarget).addEffect(new MobEffectInstance(ModEffects.SKANDHAS_CURSE.get(), 100, 0));
