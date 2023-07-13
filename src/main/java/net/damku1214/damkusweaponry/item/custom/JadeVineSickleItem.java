@@ -3,6 +3,9 @@ package net.damku1214.damkusweaponry.item.custom;
 import net.damku1214.damkusweaponry.effect.ModEffects;
 import net.damku1214.damkusweaponry.particle.ModParticles;
 import net.damku1214.damkusweaponry.sound.ModSounds;
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundSource;
@@ -14,11 +17,9 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.targeting.TargetingConditions;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
@@ -61,7 +62,7 @@ public class JadeVineSickleItem extends SwordItem {
             // Hurt enemies on list
             nearbySkandhaEntities.forEach(m -> m.hurt(DamageSource.MAGIC, 7));
             // Hurt enemies with Skandha's Curse again (extra damage)
-            nearbySkandhaEntities.stream().filter(m -> m.hasEffect(ModEffects.SKANDHAS_CURSE.get())).forEach(m -> m.setHealth(m.getHealth() - 1));
+            nearbySkandhaEntities.stream().filter(m -> m.hasEffect(ModEffects.SKANDHAS_CURSE.get())).forEach(m -> m.setHealth(m.getHealth() - 4));
             // Play sound
             level.playSound(null, entity.getX(), entity.getY(), entity.getZ(), ModSounds.JADE_VINE_SICKLE_USE_LONG.get(),
                     SoundSource.PLAYERS, 1.0F, 1.0F);
@@ -161,6 +162,15 @@ public class JadeVineSickleItem extends SwordItem {
         ItemStack stack = player.getItemInHand(hand);
         player.startUsingItem(hand);
         return InteractionResultHolder.pass(stack);
+    }
+
+    @Override
+    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+        if (Screen.hasShiftDown()) {
+            pTooltipComponents.add(new TranslatableComponent("tooltip.damkusweaponry.jade_vine_sickle.tooltip.shift"));
+        } else {
+            pTooltipComponents.add(new TranslatableComponent("tooltip.damkusweaponry.jade_vine_sickle.tooltip"));
+        }
     }
 
     @Override
