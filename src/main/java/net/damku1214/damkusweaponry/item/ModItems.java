@@ -15,7 +15,7 @@ public class ModItems {
     public static final RegistryObject<Item> DAMKU = ITEMS.register("damku",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> JADE_VINE_SICKLE = ITEMS.register("jade_vine_sickle",
-            () -> new JadeVineSickleItem(ModTiers.JADE,1, 1f,
+            () -> new JadeVineSickleItem(ModTiers.JADE,-1, 1,
                     new Item.Properties()));
     public static final RegistryObject<Item> JADE = ITEMS.register("jade",
             () -> new Item(new Item.Properties()));

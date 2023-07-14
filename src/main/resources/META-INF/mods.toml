@@ -9,7 +9,7 @@ modLoader="javafml" #mandatory
 loaderVersion="[39,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
-license="MIT"
+license="GNU GPLv3"
 # A URL to refer people to when problems occur with this mod
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
@@ -34,11 +34,11 @@ credits="Me and myself" #optional
 authors="damku1214 (댐쿵이)" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-A very, very lightweight mod that adds a few weapons (currently 1) with their own unique abilities to the game!
-Each weapon is a parody of a character/game, wouldn't be too hard to notice the reference, it's pretty obvious.
+A very, very lightwieght mod that adds weapons with their own unique abilites to the game!
+Most weapons are homages(or parodies) of certain characters/games, wouldn't be too hard to notice, it's pretty obvious.
 
-몇가지 능력을 가지고 있는 무기들을 (현재는 1개) 추가해주는 아주, 아주 가벼운 모드입니다.
-각 무기는 특정 캐릭터/게임을 패러디한거니, 한 번 찾아보시는 것도 추천합니다. 굉장히 뻔해서 찾기 어렵지 않을겁니다 ㅎㅎ
+몇 가지 능력을 가지고 있는 무기들을 추가해주는 아주, 아주 가벼운 모드입니다.
+각 무기는 특정 캐릭터/게임을 대부분 오마주(혹은 패러디)한거니, 한 번 찾아보시는 것도 추천합니다. 굉장히 뻔해서 찾기 어렵지 않을겁니다 ㅎㅎ
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.damkusweaponry]] #optional

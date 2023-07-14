@@ -19,8 +19,10 @@ public class ModEvents {
                 skandhaDamage = event.getEntity().getMaxHealth() / 10;
             } else if (event.getEntity().getMaxHealth() <= 100) {
                 skandhaDamage = event.getEntity().getMaxHealth() / 20;
-            } else {
+            } else if (event.getEntity().getMaxHealth() <= 250) {
                 skandhaDamage = event.getEntity().getMaxHealth() / 50;
+            } else {
+                skandhaDamage = event.getEntity().getMaxHealth() / 100;
             }
 
             if (event.getEntity().hasEffect(ModEffects.SKANDHAS_CURSE.get())) {
