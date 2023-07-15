@@ -1,6 +1,7 @@
 package net.damku1214.damkusweaponry.item;
 
 import net.damku1214.damkusweaponry.DamkusWeaponry;
+import net.damku1214.damkusweaponry.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.JADE_VINE_SICKLE.get());
                         pOutput.accept(ModItems.JADE.get());
                         pOutput.accept(ModItems.JADE_HANDLE.get());
+                        pOutput.accept(ModItems.TEHONITE.get());
+                        pOutput.accept(ModItems.RAW_TEHONITE.get());
+                        pOutput.accept(ModBlocks.TEHONITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.TEHONITE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_TEHONITE_ORE.get());
                     })
                     .build());
 

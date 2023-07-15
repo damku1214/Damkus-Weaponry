@@ -1,5 +1,6 @@
 package net.damku1214.damkusweaponry;
 
+import net.damku1214.damkusweaponry.block.ModBlocks;
 import net.damku1214.damkusweaponry.effect.ModEffects;
 import net.damku1214.damkusweaponry.enchantment.ModEnchantments;
 import net.damku1214.damkusweaponry.item.ModCreativeModeTabs;
@@ -30,15 +31,11 @@ public class DamkusWeaponry {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModeTabs.register(eventBus);
-
         ModItems.register(eventBus);
-
+        ModBlocks.register(eventBus);
         ModSounds.register(eventBus);
-
         ModEffects.register(eventBus);
-
         ModParticles.register(eventBus);
-
         ModEnchantments.register(eventBus);
 
         eventBus.addListener(this::commonSetup);
@@ -56,9 +53,18 @@ public class DamkusWeaponry {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.JADE);
             event.accept(ModItems.JADE_HANDLE);
+            event.accept(ModItems.TEHONITE);
+            event.accept(ModItems.RAW_TEHONITE);
         }
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.JADE_VINE_SICKLE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.TEHONITE_BLOCK);
+        }
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.TEHONITE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_TEHONITE_ORE);
         }
     }
 

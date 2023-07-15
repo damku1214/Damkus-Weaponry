@@ -3,6 +3,12 @@
   "item.damkusweaponry.jade_vine_sickle": "Jade Vine Sickle",
   "item.damkusweaponry.jade": "Jade",
   "item.damkusweaponry.jade_handle": "Jade Handle",
+  "item.damkusweaponry.tehonite": "Tehonite",
+  "item.damkusweaponry.raw_tehonite": "Raw Tehonite",
+
+  "block.damkusweaponry.tehonite_block": "Tehonite Block",
+  "block.damkusweaponry.tehonite_ore": "Tehonite Ore",
+  "block.damkusweaponry.deepslate_tehonite_ore": "Deepslate Tehonite Ore",
 
   "creativetab.damkusweaponry": "Damku's Weaponry",
 

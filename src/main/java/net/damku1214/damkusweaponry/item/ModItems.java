@@ -21,6 +21,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> JADE_HANDLE = ITEMS.register("jade_handle",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TEHONITE = ITEMS.register("tehonite",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_TEHONITE = ITEMS.register("raw_tehonite",
+            () -> new Item(new Item.Properties()));
 
 
 

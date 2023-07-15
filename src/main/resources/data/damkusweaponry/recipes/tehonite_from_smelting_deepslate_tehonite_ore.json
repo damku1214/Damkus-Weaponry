@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "tehonite",
+  "ingredient": {
+    "item": "damkusweaponry:deepslate_tehonite_ore"
+  },
+  "result": "damkusweaponry:tehonite"
+}

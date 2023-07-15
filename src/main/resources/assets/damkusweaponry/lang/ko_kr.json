@@ -3,6 +3,12 @@
   "item.damkusweaponry.jade_vine_sickle": "비취 덩굴 낫",
   "item.damkusweaponry.jade": "비취",
   "item.damkusweaponry.jade_handle": "비취 자루",
+  "item.damkusweaponry.tehonite": "태허나이트",
+  "item.damkusweaponry.raw_tehonite": "태허나이트 원석",
+
+  "block.damkusweaponry.tehonite_block": "태허나이트 블럭",
+  "block.damkusweaponry.tehonite_ore": "태허나이트 광석",
+  "block.damkusweaponry.deepslate_tehonite_ore": "심층암 태허나이트 광석",
 
   "creativetab.damkusweaponry": "댐쿵이의 무기고",
 
