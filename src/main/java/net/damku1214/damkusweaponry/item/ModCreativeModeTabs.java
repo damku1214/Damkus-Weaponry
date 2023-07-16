@@ -21,8 +21,15 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.JADE_VINE_SICKLE.get());
                         pOutput.accept(ModItems.JADE.get());
                         pOutput.accept(ModItems.JADE_HANDLE.get());
+                        pOutput.accept(ModItems.ULTIMATE_TEHONITE_SWORD.get());
+                        pOutput.accept(ModItems.ULTIMATE_TEHONITE_PICKAXE.get());
+                        pOutput.accept(ModItems.ULTIMATE_TEHONITE_AXE.get());
+                        pOutput.accept(ModItems.ULTIMATE_TEHONITE_SHOVEL.get());
+                        pOutput.accept(ModItems.ULTIMATE_TEHONITE_HOE.get());
                         pOutput.accept(ModItems.TEHONITE.get());
                         pOutput.accept(ModItems.RAW_TEHONITE.get());
+                        pOutput.accept(ModItems.MOLTEN_TEHONITE.get());
+                        pOutput.accept(ModItems.ULTIMATE_TEHONITE.get());
                         pOutput.accept(ModBlocks.TEHONITE_BLOCK.get());
                         pOutput.accept(ModBlocks.TEHONITE_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_TEHONITE_ORE.get());

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CHC",
+    "HTH",
+    "CHC"
+  ],
+  "key": {
+    "T": {
+      "item": "damkusweaponry:molten_tehonite"
+    },
+    "H": {
+      "item": "minecraft:honey_block"
+    },
+    "C": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "result": {
+    "item": "damkusweaponry:ultimate_tehonite"
+  }
+}

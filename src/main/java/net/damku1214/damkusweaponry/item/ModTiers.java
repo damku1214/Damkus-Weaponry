@@ -6,6 +6,9 @@ import net.minecraftforge.common.ForgeTier;
 
 public class ModTiers {
     public static final ForgeTier JADE = new ForgeTier(5,1000, 1f,
-            1f, 22, BlockTags.NEEDS_DIAMOND_TOOL,
+            1f, 15, BlockTags.NEEDS_DIAMOND_TOOL,
             () -> Ingredient.of(ModItems.JADE.get()));
+    public static final ForgeTier ULTIMATE_TEHONITE = new ForgeTier(5,5000, 12f,
+            1f, 22, BlockTags.NEEDS_DIAMOND_TOOL,
+            () -> Ingredient.of(ModItems.ULTIMATE_TEHONITE.get()));
 }

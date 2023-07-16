@@ -22,13 +22,13 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> TEHONITE_BLOCK = registerBlock("tehonite_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
-                    .strength(8f).requiresCorrectToolForDrops()));
+                    .strength(7f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> TEHONITE_ORE = registerBlock("tehonite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(2, 6)));
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 6)));
     public static final RegistryObject<Block> DEEPSLATE_TEHONITE_ORE = registerBlock("deepslate_tehonite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
-                    .strength(10f).requiresCorrectToolForDrops(), UniformInt.of(2, 6)));
+                    .strength(8f).requiresCorrectToolForDrops(), UniformInt.of(2, 6)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

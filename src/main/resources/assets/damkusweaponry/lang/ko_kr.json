@@ -5,6 +5,13 @@
   "item.damkusweaponry.jade_handle": "비취 자루",
   "item.damkusweaponry.tehonite": "태허나이트",
   "item.damkusweaponry.raw_tehonite": "태허나이트 원석",
+  "item.damkusweaponry.molten_tehonite": "녹은 태허나이트",
+  "item.damkusweaponry.ultimate_tehonite": "궁극의 태허나이트",
+  "item.damkusweaponry.ultimate_tehonite_sword": "궁극의 태허나이트 검",
+  "item.damkusweaponry.ultimate_tehonite_pickaxe": "궁극의 태허나이트 곡괭이",
+  "item.damkusweaponry.ultimate_tehonite_axe": "궁극의 태허나이트 도끼",
+  "item.damkusweaponry.ultimate_tehonite_shovel": "궁극의 태허나이트 삽",
+  "item.damkusweaponry.ultimate_tehonite_hoe": "궁극의 태허나이트 괭이",
 
   "block.damkusweaponry.tehonite_block": "태허나이트 블럭",
   "block.damkusweaponry.tehonite_ore": "태허나이트 광석",
@@ -20,5 +27,5 @@
   "enchantment.damkusweaponry.destiny_elucidation": "필연을 증명하는 지론",
 
   "tooltip.damkusweaponry.jade_vine_sickle.tooltip": "§a§l웅크리기§r 를 눌러 자세히 보기",
-  "tooltip.damkusweaponry.jade_vine_sickle.tooltip.shift": "\n§e지혜의 속박 §a§l우클릭§r\n5칸 이내의 몹들에게 §c5§r 데미지를 입히고 §d스칸다의 저주§r 효과를 부여한다. §7쿨타임 5초\n\n§e삼업의 반역 §a§l우클릭 홀드§r\n7칸 이내의 몹들에게 §c7§r 데미지를 입힌다. §d스칸다의 저주§r 가 부여된 대상에게는 §c4§r 데미지를 추가로 입힌다. 이 추가 피해는 저항과 흡수 등 각종 효과들을 무시하고 적용된다. §7쿨타임 8초\n\n§d스칸다의 저주§r\n피해를 입을 때마다 최대 체력에 비례하여 추가 데미지를 입는다. 이 효과의 피해는 저항과 흡수 등 각종 효과를 무시하고 적용된다.\n§7최대 체력 ~50 = 최대 체력의 §c10%§7\n최대 체력 51~100 = 최대 체력의 §c5%§7\n최대 체력 101~250 = 최대 체력의 §c2%§7\n최대 체력 251~ = 최대 체력의 §c1%§7\n\n이렇게나 많은 양의 지식을 받아들이는 것은 조건에 부합하는 그릇만 가능한 일이다. 지혜가 넘쳐흐르기 시작하면, 그릇은 자신의 게으름과 우매함 그리고 무모함과 오만함을 마주할 것이다.\n"
+  "tooltip.damkusweaponry.jade_vine_sickle.tooltip.shift": "\n§e지혜의 속박 §a§l우클릭§r\n5칸 이내의 몹들에게 §c5§r 데미지를 입히고 §d스칸다의 저주§r 효과를 부여한다. §7쿨타임 5초\n\n§e삼업의 반역 §a§l우클릭 홀드§r\n7칸 이내의 몹들에게 §c7§r 데미지를 입힌다. §d스칸다의 저주§r 가 부여된 대상에게는 §c4§r 데미지를 추가로 입힌다. 이 추가 피해는 저항과 흡수 등 각종 효과들을 무시하고 적용된다. §7쿨타임 8초\n\n§d스칸다의 저주§r\n피해를 입을 때마다 최대 체력에 비례하여 추가 데미지를 입는다. 이 효과의 피해는 저항과 흡수 등 각종 효과를 무시하고 적용된다.\n§7최대 체력 ~50 = 최대 체력의 §c10%§7\n최대 체력 51~100 = 최대 체력의 §c5%§7\n최대 체력 101~250 = 최대 체력의 §c2%§7\n최대 체력 251~ = 최대 체력의 §c1%§7\n\n이렇게나 많은 양의 지식을 받아들이는 것은 조건에 부합하는 그릇만 가능한 일이다. 지혜가 넘쳐흐르기 시작하면, 그릇은 자신의 게으름과 우매함 그리고 무모함과 오만함을 마주할 것이다.\n",
 }
