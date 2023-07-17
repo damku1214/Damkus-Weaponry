@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "damkusweaponry:molten_tehonite"
+  },
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "result": {
+    "item": "damkusweaponry:tehonite_bow"
+  },
+  "template": {
+    "item": "minecraft:honeycomb"
+  }
+}

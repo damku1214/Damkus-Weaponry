@@ -7,6 +7,7 @@ import net.damku1214.damkusweaponry.item.ModCreativeModeTabs;
 import net.damku1214.damkusweaponry.item.ModItems;
 import net.damku1214.damkusweaponry.particle.ModParticles;
 import net.damku1214.damkusweaponry.sound.ModSounds;
+import net.damku1214.damkusweaponry.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -56,12 +57,10 @@ public class DamkusWeaponry {
             event.accept(ModItems.TEHONITE);
             event.accept(ModItems.RAW_TEHONITE);
             event.accept(ModItems.MOLTEN_TEHONITE);
-            event.accept(ModItems.ULTIMATE_TEHONITE);
         }
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.JADE_VINE_SICKLE);
-            event.accept(ModItems.ULTIMATE_TEHONITE_SWORD);
-            event.accept(ModItems.ULTIMATE_TEHONITE_AXE);
+            event.accept(ModItems.TEHONITE_BOW);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.TEHONITE_BLOCK);
@@ -70,12 +69,10 @@ public class DamkusWeaponry {
             event.accept(ModBlocks.TEHONITE_ORE);
             event.accept(ModBlocks.DEEPSLATE_TEHONITE_ORE);
         }
-        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-            event.accept(ModItems.ULTIMATE_TEHONITE_PICKAXE);
-            event.accept(ModItems.ULTIMATE_TEHONITE_AXE);
-            event.accept(ModItems.ULTIMATE_TEHONITE_SHOVEL);
-            event.accept(ModItems.ULTIMATE_TEHONITE_HOE);
-        }
+    }
+
+    private void clientSetup(final FMLClientSetupEvent event) {
+        ModItemProperties.addCustomItemProperties();
     }
 
     @SubscribeEvent

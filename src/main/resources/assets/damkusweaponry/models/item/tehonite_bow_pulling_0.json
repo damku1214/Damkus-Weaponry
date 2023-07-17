@@ -1,0 +1,6 @@
+{
+  "parent": "damkusweaponry:item/tehonite_bow",
+  "textures": {
+    "layer0": "damkusweaponry:item/tehonite_bow_pulling_0"
+  }
+}
