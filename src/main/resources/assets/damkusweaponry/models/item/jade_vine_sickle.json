@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "damkusweaponry:item/jade_vine_sickle"
-  }
-}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "damkusweaponry:sticky_feet_potion_sample"
+    },
+    "title": {
+      "translate": "advancement.time_to_stick.title",
+      "fallback": "Time to Stick"
+    },
+    "description": {
+      "translate": "advancement.time_to_stick.description",
+      "fallback": "Brew a Sticky Feet Potion"
+    },
+    "frame": "task"
+  },
+  "parent": "damkusweaponry:deep_down_in_the_badlands",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "potion": "damkusweaponry:sticky_feet_potion"
+          }
+        ]
+      }
+    }
+  }
+}

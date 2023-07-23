@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "damkusweaponry:molten_tehonite"
+    },
+    "title": {
+      "translate": "advancement.molten_and_melted.title",
+      "fallback": "Molten and Melted"
+    },
+    "description": {
+      "translate": "advancement.molten_and_melted.description",
+      "fallback": "Quite a familiar shape, isn't it?"
+    },
+    "frame": "task"
+  },
+  "parent": "damkusweaponry:deep_down_in_the_badlands",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "damkusweaponry:molten_tehonite"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

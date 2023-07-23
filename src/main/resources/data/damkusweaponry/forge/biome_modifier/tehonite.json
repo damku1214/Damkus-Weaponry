@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_badlands",
+  "features": "damkusweaponry:tehonite_placed",
+  "step": "underground_ores"
+}

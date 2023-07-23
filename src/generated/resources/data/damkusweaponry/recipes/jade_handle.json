@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "J": {
+      "item": "damkusweaponry:jade"
+    }
+  },
+  "pattern": [
+    "J",
+    "J"
+  ],
+  "result": {
+    "item": "damkusweaponry:jade_handle"
+  },
+  "show_notification": true
+}

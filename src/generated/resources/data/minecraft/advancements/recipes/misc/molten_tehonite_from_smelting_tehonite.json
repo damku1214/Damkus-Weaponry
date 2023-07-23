@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_tehonite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "damkusweaponry:tehonite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:molten_tehonite_from_smelting_tehonite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_tehonite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:molten_tehonite_from_smelting_tehonite"
+    ]
+  },
+  "sends_telemetry_event": false
+}

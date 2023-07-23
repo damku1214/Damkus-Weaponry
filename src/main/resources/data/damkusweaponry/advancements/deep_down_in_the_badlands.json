@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "damkusweaponry:tehonite"
+    },
+    "title": {
+      "translate": "advancement.deep_down_in_the_badlands.title",
+      "fallback": "Deep Down in the Badlands"
+    },
+    "description": {
+      "translate": "advancement.deep_down_in_the_badlands.description",
+      "fallback": "Smelt Tehonite, found in the depths of the Badlands"
+    },
+    "frame": "task"
+  },
+  "parent": "damkusweaponry:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "damkusweaponry:tehonite"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

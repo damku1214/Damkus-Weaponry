@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "damkusweaponry:damku"
+    },
+    "title": {
+      "translate": "creativetab.damkusweaponry",
+      "fallback": "Damku's Weaponry"
+    },
+    "description": {
+      "translate": "advancement.damkusweaponry.description",
+      "fallback": "Whatever you desire, a weapon is there for you"
+    },
+    "background": "damkusweaponry:textures/gui/advancements/backgrounds/lime_terracotta.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  }
+}

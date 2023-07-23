@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "damkusweaponry:jade"
+    },
+    "title": {
+      "translate": "advancement.eye_of_wisdom.title",
+      "fallback": "Eye of Wisdom"
+    },
+    "description": {
+      "translate": "advancement.eye_of_wisdom.description",
+      "fallback": "Craft Jade, the gem of wisdom"
+    },
+    "frame": "task"
+  },
+  "parent": "damkusweaponry:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "damkusweaponry:jade"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

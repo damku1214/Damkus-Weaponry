@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glass_bottle"
+    },
+    "title": {
+      "translate": "advancement.sticky_consequences.title",
+      "fallback": "Sticky Consequences"
+    },
+    "description": {
+      "translate": "advancement.sticky_consequences.description",
+      "fallback": "Drink a Sticky Feet Potion.. for some reason"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "damkusweaponry:time_to_stick",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "nbt": "{SelectedItem:{id:\"minecraft:potion\",Count:1b,tag:{Potion:\"damkusweaponry:sticky_feet_potion\"}}}"
+        }
+      }
+    }
+  }
+}

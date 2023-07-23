@@ -6,11 +6,16 @@ import net.damku1214.damkusweaponry.enchantment.ModEnchantments;
 import net.damku1214.damkusweaponry.item.ModCreativeModeTabs;
 import net.damku1214.damkusweaponry.item.ModItems;
 import net.damku1214.damkusweaponry.particle.ModParticles;
+import net.damku1214.damkusweaponry.potion.ModPotions;
 import net.damku1214.damkusweaponry.sound.ModSounds;
+import net.damku1214.damkusweaponry.util.BetterBrewingRecipe;
 import net.damku1214.damkusweaponry.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.alchemy.Potions;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -38,22 +43,28 @@ public class DamkusWeaponry {
         ModEffects.register(eventBus);
         ModParticles.register(eventBus);
         ModEnchantments.register(eventBus);
+        ModPotions.register(eventBus);
 
-        eventBus.addListener(this::commonSetup);
+        eventBus.addListener(this::setup);
+        eventBus.addListener(this::clientSetup);
         eventBus.addListener(this::addCreative);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {
-
+    private void setup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.LEAPING,
+                    Items.HONEYCOMB, ModPotions.STICKY_FEET_POTION.get()));
+        });
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.JADE);
             event.accept(ModItems.JADE_HANDLE);
+            event.accept(ModItems.TEHONITE_UPPGRADE_SMITHING_TEMPLATE);
             event.accept(ModItems.TEHONITE);
             event.accept(ModItems.RAW_TEHONITE);
             event.accept(ModItems.MOLTEN_TEHONITE);

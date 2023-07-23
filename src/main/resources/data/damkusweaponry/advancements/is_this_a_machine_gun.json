@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "damkusweaponry:tehonite_bow"
+    },
+    "title": {
+      "translate": "advancement.is_this_a_machine_gun.title",
+      "fallback": "Is This a Machine Gun?"
+    },
+    "description": {
+      "translate": "advancement.is_this_a_machine_gun.description",
+      "fallback": "Craft a Tehonite Bow at a Smithing Table"
+    },
+    "frame": "goal"
+  },
+  "parent": "damkusweaponry:molten_and_melted",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "damkusweaponry:tehonite_bow"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

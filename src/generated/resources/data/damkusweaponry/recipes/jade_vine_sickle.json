@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "damkusweaponry:jade_handle"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "IIH",
+    " H ",
+    "H  "
+  ],
+  "result": {
+    "item": "damkusweaponry:jade_vine_sickle"
+  },
+  "show_notification": true
+}

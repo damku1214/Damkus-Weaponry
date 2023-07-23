@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "minecraft:honeycomb"
+    },
+    "T": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  "pattern": [
+    " H ",
+    "HTH",
+    " H "
+  ],
+  "result": {
+    "item": "damkusweaponry:tehonite_upgrade_smithing_template"
+  },
+  "show_notification": true
+}

@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.JADE.get());
                         pOutput.accept(ModItems.JADE_HANDLE.get());
                         pOutput.accept(ModItems.TEHONITE_BOW.get());
+                        pOutput.accept(ModItems.TEHONITE_UPPGRADE_SMITHING_TEMPLATE.get());
                         pOutput.accept(ModItems.TEHONITE.get());
                         pOutput.accept(ModItems.RAW_TEHONITE.get());
                         pOutput.accept(ModItems.MOLTEN_TEHONITE.get());

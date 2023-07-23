@@ -14,6 +14,8 @@ public class ModEffects {
 
     public static final RegistryObject<MobEffect> SKANDHAS_CURSE = MOB_EFFECTS.register("skandhas_curse",
             () -> new SkandhasCurse(MobEffectCategory.HARMFUL, 16730698));
+    public static final RegistryObject<MobEffect> STICKY_FEET = MOB_EFFECTS.register("sticky_feet",
+            () -> new SkandhasCurse(MobEffectCategory.HARMFUL, 16757760));
 
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);

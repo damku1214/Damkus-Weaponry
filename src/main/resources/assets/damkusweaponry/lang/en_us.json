@@ -7,6 +7,12 @@
   "item.damkusweaponry.raw_tehonite": "Raw Tehonite",
   "item.damkusweaponry.molten_tehonite": "Molten Tehonite",
   "item.damkusweaponry.tehonite_bow": "Tehonite Bow",
+  "item.damkusweaponry.tehonite_upgrade_smithing_template": "Smithing Template",
+  "item.minecraft.potion.effect.sticky_feet_potion": "Potion of Sticky Feet",
+  "item.minecraft.splash_potion.effect.sticky_feet_potion": "Splash Potion of Sticky Feet",
+  "item.minecraft.lingering_potion.effect.sticky_feet_potion": "Lingering Potion of Sticky Feet",
+  "item.minecraft.tipped_arrow.effect.sticky_feet_potion": "Arrow of Sticky Feet",
+  "item.damkusweaponry.sticky_feet_potion_sample": "Sticky Feet Potion Sample",
 
   "block.damkusweaponry.tehonite_block": "Tehonite Block",
   "block.damkusweaponry.tehonite_ore": "Tehonite Ore",
@@ -14,13 +20,39 @@
 
   "creativetab.damkusweaponry": "Damku's Weaponry",
 
+  "advancement.damkusweaponry.description": "Whatever you desire, a weapon is there for you",
+  "advancement.eye_of_wisdom.title": "Eye of Wisdom",
+  "advancement.eye_of_wisdom.description": "Craft Jade, the gem of wisdom",
+  "advancement.knowledge_overflow.title": "Knowledge Overflow",
+  "advancement.knowledge_overflow.description": "Obtain the Jade Vine Sickle and become the owner of unlimited knowledge",
+  "advancement.whos_the_smartest_now.title": "Who's the Smartest Now?",
+  "advancement.whos_the_smartest_now.description": "Beat the Librarian with KNOWLEDGE",
+  "advancement.deep_down_in_the_badlands.title": "Deep Down in the Badlands",
+  "advancement.deep_down_in_the_badlands.description": "Smelt Tehonite, found in the depths of the Badlands",
+  "advancement.molten_and_melted.title": "Molten and Melted",
+  "advancement.molten_and_melted.description": "Quite a familiar shape, isn't it?",
+  "advancement.is_this_a_machine_gun.title": "Is This a Machine Gun?",
+  "advancement.is_this_a_machine_gun.description": "Craft a Tehonite Bow at a Smithing Table",
+  "advancement.time_to_stick.title": "Time to Stick",
+  "advancement.time_to_stick.description": "Brew a Sticky Feet Potion",
+  "advancement.sticky_consequences.title": "Sticky Consequences",
+  "advancement.sticky_consequences.description": "Drink a Sticky Feet Potion.. for some reason",
+
   "effect.damkusweaponry.skandhas_curse": "Skandha's Curse",
+  "effect.damkusweaponry.sticky_feet": "Sticky Feet",
 
   "sounds.damkusweaponry.jade_vine_sickle_use_short": "Jade Vine Sickle Slashes",
   "sounds.damkusweaponry.jade_vine_sickle_use_long": "Jade Vine Sickle Swings",
 
   "enchantment.damkusweaponry.destiny_elucidation": "Destiny Elucidation",
 
-  "tooltip.damkusweaponry.jade_vine_sickle.tooltip": "Press §a§lSHIFT§r for More Information",
-  "tooltip.damkusweaponry.jade_vine_sickle.tooltip.shift": "\n§eBinding of Wisdom §a§lRMB§r\nDeals §c5§r damage and applies the §dSkandha's Curse§r effect to entities that are in a 5 block radius. §7Cooldown 5s\n\n§eTri-Karma Backlash §a§lHold RMB§r\nDeals §c7§r damage to entities that are in a 7 block radius. Inflicts §c4§r extra damage to entities that has the §dSkandha's Curse§r effect. The extra damage negates effects like resistance and absorption. §7Cooldown 8s\n\n§dSkandha's Curse§r\nWhen an entity with this effect take damage, it takes extra damage depending on its max health. This damage negates effects such as resistance and absorption.\n§7Max health ~50 = §c10% §7of max health\nMax health 51~100 = §c5% §7of max health\nMax health 101~250 = §c2% §7of max health\nMax health 251~ = §c1% §7of max health\n\nIn order to wield such an amount of knowledge, the vessel shall meet the conditions. If overcapacitated, the vessel will face its laziness, ignorance, recklessness, or arrogance.\n"
+  "item.minecraft.smithing_template.tehonite_upgrade.applies_to": "Bow",
+  "item.minecraft.smithing_template.tehonite_upgrade.ingredients": "Molten Tehonite",
+  "upgrade.minecraft.tehonite_upgrade": "Tehonite Upgrade",
+  "item.minecraft.smithing_template.tehonite_upgrade.base_slot_description": "Add Bow",
+  "item.minecraft.smithing_template.tehonite_upgrade.additions_slot_description": "Add Molten Tehonite",
+
+  "tooltip.damkusweaponry.before_shift.tooltip": "Press §a§lSHIFT§r for More Information",
+  "tooltip.damkusweaponry.jade_vine_sickle.tooltip.shift": "\n§eBinding of Wisdom §a§lRMB§r\nDeals §c5§r damage and applies the §dSkandha's Curse§r effect to entities that are in a 5 block radius. §7Cooldown 5s\n\n§eTri-Karma Backlash §a§lHold RMB§r\nDeals §c7§r damage to entities that are in a 7 block radius. Inflicts §c4§r extra damage to entities that has the §dSkandha's Curse§r effect. The extra damage negates effects like resistance and absorption. §7Cooldown 8s\n\n§dSkandha's Curse§r\nWhen an entity with this effect take damage, it takes extra damage depending on its max health. This damage negates effects such as resistance and absorption.\n§7Max health ~50 = §c10% §7of max health\nMax health 51~100 = §c5% §7of max health\nMax health 101~250 = §c2% §7of max health\nMax health 251~ = §c1% §7of max health\n\nIn order to wield such an amount of knowledge, the vessel shall meet the conditions. If overcapacitated, the vessel will face its laziness, ignorance, recklessness, or arrogance.\n",
+  "tooltip.damkusweaponry.tehonite_bow.tooltip.shift": "\n§eArrow Barrage §a§lPASSIVE§r\nShooting this bow does not require charging, however the arrow's range and damage is decreased when shot. Also, the arrow's damage and range is not affected by how long the player has charged the bow.\n\n§7This bow's potential differs drastically depending on the user's skill, making many people simply ignore it. However, if you wield such skill, no other bow can perform like this one.\n"
 }

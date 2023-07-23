@@ -11,7 +11,6 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.Mth;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
-import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.targeting.TargetingConditions;
@@ -168,7 +167,7 @@ public class JadeVineSickleItem extends SwordItem {
         if (Screen.hasShiftDown()) {
             pTooltipComponents.add(Component.translatable("tooltip.damkusweaponry.jade_vine_sickle.tooltip.shift"));
         } else {
-            pTooltipComponents.add(Component.translatable("tooltip.damkusweaponry.jade_vine_sickle.tooltip"));
+            pTooltipComponents.add(Component.translatable("tooltip.damkusweaponry.before_shift.tooltip"));
         }
     }
 
