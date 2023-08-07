@@ -78,21 +78,21 @@
       "predicate": {
         "minecraft:pulling": 1
       },
-      "model": "damkusweaponry:item/tehonite_bow_pulling_0"
+      "model": "damkusweaponry:item/tehonite_bow_pulling/tehonite_bow_pulling_0"
     },
     {
       "predicate": {
         "minecraft:pulling": 1,
         "minecraft:pull": 0.05
       },
-      "model": "damkusweaponry:item/tehonite_bow_pulling_1"
+      "model": "damkusweaponry:item/tehonite_bow_pulling/tehonite_bow_pulling_1"
     },
     {
       "predicate": {
         "minecraft:pulling": 1,
         "minecraft:pull": 0.1
       },
-      "model": "damkusweaponry:item/tehonite_bow_pulling_2"
+      "model": "damkusweaponry:item/tehonite_bow_pulling/tehonite_bow_pulling_2"
     }
   ]
 }

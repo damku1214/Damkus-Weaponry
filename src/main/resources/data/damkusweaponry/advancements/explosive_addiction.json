@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "advancement.explosive_addiction.title",
+      "fallback": "Explosive Addiction"
+    },
+    "description": {
+      "translate": "advancement.explosive_addiction.description",
+      "fallback": "Completely use up a Galaxy Nova, then count how many souls you crushed with it"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "damkusweaponry:hailing_light",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {
+          "max": 0
+        },
+        "item": {
+          "items": [
+            "damkusweaponry:galaxy_nova"
+          ]
+        }
+      }
+    }
+  }
+}

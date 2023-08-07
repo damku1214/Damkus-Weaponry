@@ -16,6 +16,7 @@ public class TehoniteBowItem extends BowItem {
         super(pProperties);
     }
 
+    // Whenever shot the bow, pins the bow power to 0.8 (max is 1)
     @Override
     public void releaseUsing(ItemStack p_40667_, Level p_40668_, LivingEntity p_40669_, int p_40670_) {
         p_40670_ = getUseDuration(p_40667_) - 16;

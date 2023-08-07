@@ -1,8 +1,7 @@
 package net.damku1214.damkusweaponry.item;
 
 import net.damku1214.damkusweaponry.DamkusWeaponry;
-import net.damku1214.damkusweaponry.item.custom.JadeVineSickleItem;
-import net.damku1214.damkusweaponry.item.custom.TehoniteBowItem;
+import net.damku1214.damkusweaponry.item.custom.*;
 import net.minecraft.ChatFormatting;
 import net.minecraft.Util;
 import net.minecraft.network.chat.Component;
@@ -50,6 +49,13 @@ public class ModItems {
                     TEHONITE_UPGRADE_ADDITIONS_SLOT_DESCRIPTION, List.of(EMPTY_SLOT_BOW), List.of(EMPTY_SLOT_MOLTEN_TEHONITE)));
     public static final RegistryObject<Item> STICKY_FEET_POTION_SAMPLE = ITEMS.register("sticky_feet_potion_sample",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GALAXY_NOVA = ITEMS.register("galaxy_nova",
+            () -> new GalaxyNovaItem(ModTiers.GALAXY,10, -3.4f,
+                    new Item.Properties()));
+    public static final RegistryObject<Item> SOUL_FIRE_CHARGE = ITEMS.register("soul_fire_charge",
+            () -> new SoulFireChargeItem(new Item.Properties()));
+    public static final RegistryObject<Item> OVERCHARGED_CAPACITOR = ITEMS.register("overcharged_capacitor",
+            () -> new OverchargedCapacitorItem(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

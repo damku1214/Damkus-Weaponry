@@ -9,7 +9,7 @@
     },
     "description": {
       "translate": "advancement.whos_the_smartest_now.description",
-      "fallback": "Beat the Librarian with KNOWLEDGE"
+      "fallback": "Beat the Librarian with its own speciality, KNOWLEDGE"
     },
     "frame": "challenge",
     "hidden": true

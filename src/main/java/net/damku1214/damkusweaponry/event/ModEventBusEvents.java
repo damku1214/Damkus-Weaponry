@@ -10,8 +10,8 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = DamkusWeaponry.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModEventBusEvents {
-
     @SubscribeEvent
+    @Deprecated
     public static void registerParticleFactories(final RegisterParticleProvidersEvent event) {
         Minecraft.getInstance().particleEngine.register(ModParticles.BINDING_OF_WISDOM_MAIN_PARTICLES.get(),
                 BindingOfWisdomMainParticles.Provider::new);
@@ -35,5 +35,25 @@ public class ModEventBusEvents {
                 DestinyElucidation1Particles.Provider::new);
         Minecraft.getInstance().particleEngine.register(ModParticles.DESTINY_ELUCIDATION_2_PARTICLES.get(),
                 DestinyElucidation2Particles.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ModParticles.GALAXY_NOVA_CHARGE_0.get(),
+                GalaxyNovaCharge0Particles.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ModParticles.GALAXY_NOVA_CHARGE_1.get(),
+                GalaxyNovaCharge1Particles.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ModParticles.GALAXY_NOVA_CHARGE_2.get(),
+                GalaxyNovaCharge2Particles.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ModParticles.GALAXY_NOVA_EXPLOSION_0.get(),
+                GalaxyNovaExplosion0Particles.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ModParticles.GALAXY_NOVA_EXPLOSION_1.get(),
+                GalaxyNovaExplosion1Particles.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ModParticles.GALAXY_NOVA_EXPLOSION_2.get(),
+                GalaxyNovaExplosion2Particles.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ModParticles.GALAXY_NOVA_EXPLOSION_0_EXTRA.get(),
+                GalaxyNovaExplosion0ExtraParticles.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ModParticles.GALAXY_NOVA_EXPLOSION_1_EXTRA.get(),
+                GalaxyNovaExplosion1ExtraParticles.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ModParticles.GALAXY_NOVA_EXPLOSION_2_EXTRA.get(),
+                GalaxyNovaExplosion2ExtraParticles.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ModParticles.SHORT_END_ROD.get(),
+                ShortEndRodParticles.Provider::new);
     }
 }

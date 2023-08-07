@@ -85,7 +85,41 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(consumer, List.of(ModItems.TEHONITE.get()), RecipeCategory.MISC,
                 ModItems.MOLTEN_TEHONITE.get(), 0.7f, 100, "tehonite");
 
-        nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.TEHONITE.get(), RecipeCategory.MISC,
+        nineBlockStorageRecipes(consumer, RecipeCategory.MISC, ModItems.TEHONITE.get(), RecipeCategory.BUILDING_BLOCKS,
                 ModBlocks.TEHONITE_BLOCK.get());
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SOUL_FIRE_CHARGE.get())
+                .define('S', Items.SOUL_SAND)
+                .define('F', Items.FIRE_CHARGE)
+                .pattern("SSS")
+                .pattern("SFS")
+                .pattern("SSS")
+                .unlockedBy("has_fire_charge", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.FIRE_CHARGE).build()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.OVERCHARGED_CAPACITOR.get())
+                .define('S', ModItems.SOUL_FIRE_CHARGE.get())
+                .define('G', Items.GLOW_INK_SAC)
+                .define('H', Items.HEART_OF_THE_SEA)
+                .pattern("GSG")
+                .pattern("SHS")
+                .pattern("GSG")
+                .unlockedBy("has_heart_of_the_sea", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.HEART_OF_THE_SEA).build()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.GALAXY_NOVA.get())
+                .define('I', Items.IRON_INGOT)
+                .define('L', Items.LAPIS_LAZULI)
+                .define('O', ModItems.OVERCHARGED_CAPACITOR.get())
+                .define('N', Items.NETHERITE_INGOT)
+                .define('C', Items.COPPER_INGOT)
+                .pattern(" II")
+                .pattern("NOL")
+                .pattern("CN ")
+                .unlockedBy("has_overcharged_capacitor", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.OVERCHARGED_CAPACITOR.get()).build()))
+                .save(consumer);
     }
 }

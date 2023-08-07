@@ -8,4 +8,8 @@ public class ModTiers {
     public static final ForgeTier JADE = new ForgeTier(5,1000, 1f,
             1f, 15, BlockTags.NEEDS_DIAMOND_TOOL,
             () -> Ingredient.of(ModItems.JADE.get()));
+
+    public static final ForgeTier GALAXY = new ForgeTier(5,2000, 1f,
+            1f, 15, BlockTags.NEEDS_DIAMOND_TOOL,
+            () -> Ingredient.of(ModItems.OVERCHARGED_CAPACITOR.get()));
 }

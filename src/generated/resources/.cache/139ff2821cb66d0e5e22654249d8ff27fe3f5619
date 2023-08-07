@@ -1,10 +1,12 @@
-// 1.20.1	2023-07-21T22:26:57.0626834	Item Models: damkusweaponry
+// 1.20.1	2023-08-04T21:05:23.0793565	Item Models: damkusweaponry
 ab2aaffda6cc5f253793216f2074d130212b2660 assets/damkusweaponry/models/item/damku.json
 2fc86ab9c02187eccaa8623b737608fdd17e3b23 assets/damkusweaponry/models/item/jade.json
 3d37255c8106adb8ed3c4e772292d5d60bca8d3a assets/damkusweaponry/models/item/jade_handle.json
 dbceb3be6b883ea0c8e0671114544371002c5f00 assets/damkusweaponry/models/item/jade_vine_sickle.json
 4830b668fade10037f41c65234fb11e69f0fda89 assets/damkusweaponry/models/item/molten_tehonite.json
+4b01d8bde52fcfe8a5d0f078f9b45b02872a9354 assets/damkusweaponry/models/item/overcharged_capacitor.json
 86fe60a4baa2ef7a53ae9bc7902883191b99905e assets/damkusweaponry/models/item/raw_tehonite.json
+0e7c7ef4fab382cc3534d4a9fafd09ddc21b0b01 assets/damkusweaponry/models/item/soul_fire_charge.json
 cd2a4c83249f887cb4a953383acacc687774c738 assets/damkusweaponry/models/item/sticky_feet_potion_sample.json
 23b10c01a5231b55412618b6b0953eb442c75b48 assets/damkusweaponry/models/item/tehonite.json
 a759e517f7ecd792cc7047433ec76abe4b9e0dbd assets/damkusweaponry/models/item/tehonite_upgrade_smithing_template.json

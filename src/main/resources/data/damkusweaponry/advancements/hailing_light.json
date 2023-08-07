@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "damkusweaponry:galaxy_nova"
+    },
+    "title": {
+      "translate": "advancement.hailing_light.title",
+      "fallback": "Hailing Light"
+    },
+    "description": {
+      "translate": "advancement.hailing_light.description",
+      "fallback": "Craft a Galaxy Nova, the divider of realms"
+    },
+    "frame": "goal"
+  },
+  "parent": "damkusweaponry:alternative_energy",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "damkusweaponry:galaxy_nova"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

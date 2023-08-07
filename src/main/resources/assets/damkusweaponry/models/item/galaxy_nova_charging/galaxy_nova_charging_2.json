@@ -1,0 +1,573 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_2",
+		"particle": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_2"
+	},
+	"elements": [
+		{
+			"name": "galaxy_nova_charging_2_0",
+			"from": [7, 13.5, 3],
+			"to": [7.5, 15, 4.5],
+			"faces": {
+				"north": {"uv": [12.5, 1, 13, 2.5], "texture": "#1"},
+				"east": {"uv": [11.5, 1, 13, 2.5], "texture": "#1"},
+				"south": {"uv": [11.5, 1, 12, 2.5], "texture": "#1"},
+				"west": {"uv": [13, 1, 11.5, 2.5], "texture": "#1"},
+				"up": {"uv": [11.5, 1, 13, 1.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [11.5, 2, 13, 2.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_1",
+			"from": [7, 14, 2.5],
+			"to": [7.5, 15, 3],
+			"faces": {
+				"north": {"uv": [13, 1, 13.5, 2], "texture": "#1"},
+				"east": {"uv": [13, 1, 13.5, 2], "texture": "#1"},
+				"south": {"uv": [13, 1, 13.5, 2], "texture": "#1"},
+				"west": {"uv": [13.5, 1, 13, 2], "texture": "#1"},
+				"up": {"uv": [13, 1, 13.5, 1.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [13, 1.5, 13.5, 2], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_2",
+			"from": [7, 12, 4.5],
+			"to": [7.5, 14.5, 5],
+			"faces": {
+				"north": {"uv": [11, 1.5, 11.5, 4], "texture": "#1"},
+				"east": {"uv": [11, 1.5, 11.5, 4], "texture": "#1"},
+				"south": {"uv": [11, 1.5, 11.5, 4], "texture": "#1"},
+				"west": {"uv": [11.5, 1.5, 11, 4], "texture": "#1"},
+				"up": {"uv": [11, 1.5, 11.5, 2], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [11, 3.5, 11.5, 4], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_3",
+			"from": [7, 7.5, 5],
+			"to": [7.5, 14, 5.5],
+			"faces": {
+				"north": {"uv": [10.5, 2, 11, 8.5], "texture": "#1"},
+				"east": {"uv": [10.5, 2, 11, 8.5], "texture": "#1"},
+				"south": {"uv": [10.5, 2, 11, 8.5], "texture": "#1"},
+				"west": {"uv": [11, 2, 10.5, 8.5], "texture": "#1"},
+				"up": {"uv": [10.5, 2, 11, 2.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [10.5, 8, 11, 8.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_4",
+			"from": [7, 8, 5.5],
+			"to": [7.5, 13.5, 6],
+			"faces": {
+				"north": {"uv": [10, 2.5, 10.5, 8], "texture": "#1"},
+				"east": {"uv": [10, 2.5, 10.5, 8], "texture": "#1"},
+				"south": {"uv": [10, 2.5, 10.5, 8], "texture": "#1"},
+				"west": {"uv": [10.5, 2.5, 10, 8], "texture": "#1"},
+				"up": {"uv": [10, 2.5, 10.5, 3], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [10, 7.5, 10.5, 8], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_5",
+			"from": [7, 13, 3.5],
+			"to": [7.5, 13.5, 4.5],
+			"faces": {
+				"north": {"uv": [12, 2.5, 12.5, 3], "texture": "#1"},
+				"east": {"uv": [11.5, 2.5, 12.5, 3], "texture": "#1"},
+				"south": {"uv": [11.5, 2.5, 12, 3], "texture": "#1"},
+				"west": {"uv": [12.5, 2.5, 11.5, 3], "texture": "#1"},
+				"up": {"uv": [11.5, 2.5, 12.5, 3], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [11.5, 2.5, 12.5, 3], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_6",
+			"from": [7, 11.5, 1],
+			"to": [7.5, 13.5, 2],
+			"faces": {
+				"north": {"uv": [14.5, 2.5, 15, 4.5], "texture": "#1"},
+				"east": {"uv": [14, 2.5, 15, 4.5], "texture": "#1"},
+				"south": {"uv": [14, 2.5, 14.5, 4.5], "texture": "#1"},
+				"west": {"uv": [15, 2.5, 14, 4.5], "texture": "#1"},
+				"up": {"uv": [14, 2.5, 15, 3], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [14, 4, 15, 4.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_7",
+			"from": [7, 8, 6],
+			"to": [7.5, 13, 6.5],
+			"faces": {
+				"north": {"uv": [9.5, 3, 10, 8], "texture": "#1"},
+				"east": {"uv": [9.5, 3, 10, 8], "texture": "#1"},
+				"south": {"uv": [9.5, 3, 10, 8], "texture": "#1"},
+				"west": {"uv": [10, 3, 9.5, 8], "texture": "#1"},
+				"up": {"uv": [9.5, 3, 10, 3.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [9.5, 7.5, 10, 8], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_8",
+			"from": [7, 12.5, 4],
+			"to": [7.5, 13, 4.5],
+			"faces": {
+				"north": {"uv": [11.5, 3, 12, 3.5], "texture": "#1"},
+				"east": {"uv": [11.5, 3, 12, 3.5], "texture": "#1"},
+				"south": {"uv": [11.5, 3, 12, 3.5], "texture": "#1"},
+				"west": {"uv": [12, 3, 11.5, 3.5], "texture": "#1"},
+				"up": {"uv": [11.5, 3, 12, 3.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [11.5, 3, 12, 3.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_9",
+			"from": [7, 10.5, 2],
+			"to": [7.5, 13, 2.5],
+			"faces": {
+				"north": {"uv": [13.5, 3, 14, 5.5], "texture": "#1"},
+				"east": {"uv": [13.5, 3, 14, 5.5], "texture": "#1"},
+				"south": {"uv": [13.5, 3, 14, 5.5], "texture": "#1"},
+				"west": {"uv": [14, 3, 13.5, 5.5], "texture": "#1"},
+				"up": {"uv": [13.5, 3, 14, 3.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [13.5, 5, 14, 5.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_10",
+			"from": [7, 7.5, 6.5],
+			"to": [7.5, 12.5, 7],
+			"faces": {
+				"north": {"uv": [9, 3.5, 9.5, 8.5], "texture": "#1"},
+				"east": {"uv": [9, 3.5, 9.5, 8.5], "texture": "#1"},
+				"south": {"uv": [9, 3.5, 9.5, 8.5], "texture": "#1"},
+				"west": {"uv": [9.5, 3.5, 9, 8.5], "texture": "#1"},
+				"up": {"uv": [9, 3.5, 9.5, 4], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [9, 8, 9.5, 8.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_11",
+			"from": [7, 10, 2.5],
+			"to": [7.5, 12.5, 3],
+			"faces": {
+				"north": {"uv": [13, 3.5, 13.5, 6], "texture": "#1"},
+				"east": {"uv": [13, 3.5, 13.5, 6], "texture": "#1"},
+				"south": {"uv": [13, 3.5, 13.5, 6], "texture": "#1"},
+				"west": {"uv": [13.5, 3.5, 13, 6], "texture": "#1"},
+				"up": {"uv": [13, 3.5, 13.5, 4], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [13, 5.5, 13.5, 6], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_12",
+			"from": [7, 6.5, 7],
+			"to": [7.5, 12, 7.5],
+			"faces": {
+				"north": {"uv": [8.5, 4, 9, 9.5], "texture": "#1"},
+				"east": {"uv": [8.5, 4, 9, 9.5], "texture": "#1"},
+				"south": {"uv": [8.5, 4, 9, 9.5], "texture": "#1"},
+				"west": {"uv": [9, 4, 8.5, 9.5], "texture": "#1"},
+				"up": {"uv": [8.5, 4, 9, 4.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [8.5, 9, 9, 9.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_13",
+			"from": [7, 9.5, 3],
+			"to": [7.5, 12, 3.5],
+			"faces": {
+				"north": {"uv": [12.5, 4, 13, 6.5], "texture": "#1"},
+				"east": {"uv": [12.5, 4, 13, 6.5], "texture": "#1"},
+				"south": {"uv": [12.5, 4, 13, 6.5], "texture": "#1"},
+				"west": {"uv": [13, 4, 12.5, 6.5], "texture": "#1"},
+				"up": {"uv": [12.5, 4, 13, 4.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [12.5, 6, 13, 6.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_14",
+			"from": [7, 6, 7.5],
+			"to": [7.5, 11.5, 8],
+			"faces": {
+				"north": {"uv": [8, 4.5, 8.5, 10], "texture": "#1"},
+				"east": {"uv": [8, 4.5, 8.5, 10], "texture": "#1"},
+				"south": {"uv": [8, 4.5, 8.5, 10], "texture": "#1"},
+				"west": {"uv": [8.5, 4.5, 8, 10], "texture": "#1"},
+				"up": {"uv": [8, 4.5, 8.5, 5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [8, 9.5, 8.5, 10], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_15",
+			"from": [7, 8, 4.5],
+			"to": [7.5, 11.5, 5],
+			"faces": {
+				"north": {"uv": [11, 4.5, 11.5, 8], "texture": "#1"},
+				"east": {"uv": [11, 4.5, 11.5, 8], "texture": "#1"},
+				"south": {"uv": [11, 4.5, 11.5, 8], "texture": "#1"},
+				"west": {"uv": [11.5, 4.5, 11, 8], "texture": "#1"},
+				"up": {"uv": [11, 4.5, 11.5, 5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [11, 7.5, 11.5, 8], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_16",
+			"from": [7, 9, 3.5],
+			"to": [7.5, 11.5, 4],
+			"faces": {
+				"north": {"uv": [12, 4.5, 12.5, 7], "texture": "#1"},
+				"east": {"uv": [12, 4.5, 12.5, 7], "texture": "#1"},
+				"south": {"uv": [12, 4.5, 12.5, 7], "texture": "#1"},
+				"west": {"uv": [12.5, 4.5, 12, 7], "texture": "#1"},
+				"up": {"uv": [12, 4.5, 12.5, 5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [12, 6.5, 12.5, 7], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_17",
+			"from": [7, 11, 1.5],
+			"to": [7.5, 11.5, 2],
+			"faces": {
+				"north": {"uv": [14, 4.5, 14.5, 5], "texture": "#1"},
+				"east": {"uv": [14, 4.5, 14.5, 5], "texture": "#1"},
+				"south": {"uv": [14, 4.5, 14.5, 5], "texture": "#1"},
+				"west": {"uv": [14.5, 4.5, 14, 5], "texture": "#1"},
+				"up": {"uv": [14, 4.5, 14.5, 5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [14, 4.5, 14.5, 5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_18",
+			"from": [7, 10.5, 8],
+			"to": [7.5, 11, 8.5],
+			"faces": {
+				"north": {"uv": [7.5, 5, 8, 5.5], "texture": "#1"},
+				"east": {"uv": [7.5, 5, 8, 5.5], "texture": "#1"},
+				"south": {"uv": [7.5, 5, 8, 5.5], "texture": "#1"},
+				"west": {"uv": [8, 5, 7.5, 5.5], "texture": "#1"},
+				"up": {"uv": [7.5, 5, 8, 5.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [7.5, 5, 8, 5.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_19",
+			"from": [7, 8.5, 4],
+			"to": [7.5, 11, 4.5],
+			"faces": {
+				"north": {"uv": [11.5, 5, 12, 7.5], "texture": "#1"},
+				"east": {"uv": [11.5, 5, 12, 7.5], "texture": "#1"},
+				"south": {"uv": [11.5, 5, 12, 7.5], "texture": "#1"},
+				"west": {"uv": [12, 5, 11.5, 7.5], "texture": "#1"},
+				"up": {"uv": [11.5, 5, 12, 5.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [11.5, 7, 12, 7.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_20",
+			"from": [7, 5.5, 8],
+			"to": [7.5, 9.5, 8.5],
+			"faces": {
+				"north": {"uv": [7.5, 6.5, 8, 10.5], "texture": "#1"},
+				"east": {"uv": [7.5, 6.5, 8, 10.5], "texture": "#1"},
+				"south": {"uv": [7.5, 6.5, 8, 10.5], "texture": "#1"},
+				"west": {"uv": [8, 6.5, 7.5, 10.5], "texture": "#1"},
+				"up": {"uv": [7.5, 6.5, 8, 7], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [7.5, 10, 8, 10.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_21",
+			"from": [7, 5, 8.5],
+			"to": [7.5, 9, 9.5],
+			"faces": {
+				"north": {"uv": [7, 7, 7.5, 11], "texture": "#1"},
+				"east": {"uv": [6.5, 7, 7.5, 11], "texture": "#1"},
+				"south": {"uv": [6.5, 7, 7, 11], "texture": "#1"},
+				"west": {"uv": [7.5, 7, 6.5, 11], "texture": "#1"},
+				"up": {"uv": [6.5, 7, 7.5, 7.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [6.5, 10.5, 7.5, 11], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_22",
+			"from": [7, 2, 9.5],
+			"to": [7.5, 8.5, 10],
+			"faces": {
+				"north": {"uv": [6, 7.5, 6.5, 14], "texture": "#1"},
+				"east": {"uv": [6, 7.5, 6.5, 14], "texture": "#1"},
+				"south": {"uv": [6, 7.5, 6.5, 14], "texture": "#1"},
+				"west": {"uv": [6.5, 7.5, 6, 14], "texture": "#1"},
+				"up": {"uv": [6, 7.5, 6.5, 8], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [6, 13.5, 6.5, 14], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_23",
+			"from": [7, 2, 10],
+			"to": [7.5, 8, 10.5],
+			"faces": {
+				"north": {"uv": [5.5, 8, 6, 14], "texture": "#1"},
+				"east": {"uv": [5.5, 8, 6, 14], "texture": "#1"},
+				"south": {"uv": [5.5, 8, 6, 14], "texture": "#1"},
+				"west": {"uv": [6, 8, 5.5, 14], "texture": "#1"},
+				"up": {"uv": [5.5, 8, 6, 8.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [5.5, 13.5, 6, 14], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_24",
+			"from": [7, 6.5, 13.5],
+			"to": [7.5, 7.5, 14.5],
+			"faces": {
+				"north": {"uv": [2, 8.5, 2.5, 9.5], "texture": "#1"},
+				"east": {"uv": [1.5, 8.5, 2.5, 9.5], "texture": "#1"},
+				"south": {"uv": [1.5, 8.5, 2, 9.5], "texture": "#1"},
+				"west": {"uv": [2.5, 8.5, 1.5, 9.5], "texture": "#1"},
+				"up": {"uv": [1.5, 8.5, 2.5, 9], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [1.5, 9, 2.5, 9.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_25",
+			"from": [7, 2.5, 10.5],
+			"to": [7.5, 7.5, 11],
+			"faces": {
+				"north": {"uv": [5, 8.5, 5.5, 13.5], "texture": "#1"},
+				"east": {"uv": [5, 8.5, 5.5, 13.5], "texture": "#1"},
+				"south": {"uv": [5, 8.5, 5.5, 13.5], "texture": "#1"},
+				"west": {"uv": [5.5, 8.5, 5, 13.5], "texture": "#1"},
+				"up": {"uv": [5, 8.5, 5.5, 9], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [5, 13, 5.5, 13.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_26",
+			"from": [7, 5, 12.5],
+			"to": [7.5, 7, 13.5],
+			"faces": {
+				"north": {"uv": [3, 9, 3.5, 11], "texture": "#1"},
+				"east": {"uv": [2.5, 9, 3.5, 11], "texture": "#1"},
+				"south": {"uv": [2.5, 9, 3, 11], "texture": "#1"},
+				"west": {"uv": [3.5, 9, 2.5, 11], "texture": "#1"},
+				"up": {"uv": [2.5, 9, 3.5, 9.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [2.5, 10.5, 3.5, 11], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_27",
+			"from": [7, 3, 11],
+			"to": [7.5, 7, 11.5],
+			"faces": {
+				"north": {"uv": [4.5, 9, 5, 13], "texture": "#1"},
+				"east": {"uv": [4.5, 9, 5, 13], "texture": "#1"},
+				"south": {"uv": [4.5, 9, 5, 13], "texture": "#1"},
+				"west": {"uv": [5, 9, 4.5, 13], "texture": "#1"},
+				"up": {"uv": [4.5, 9, 5, 9.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [4.5, 12.5, 5, 13], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_28",
+			"from": [7, 5.5, 13.5],
+			"to": [7.5, 6.5, 14],
+			"faces": {
+				"north": {"uv": [2, 9.5, 2.5, 10.5], "texture": "#1"},
+				"east": {"uv": [2, 9.5, 2.5, 10.5], "texture": "#1"},
+				"south": {"uv": [2, 9.5, 2.5, 10.5], "texture": "#1"},
+				"west": {"uv": [2.5, 9.5, 2, 10.5], "texture": "#1"},
+				"up": {"uv": [2, 9.5, 2.5, 10], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [2, 10, 2.5, 10.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_29",
+			"from": [7, 3, 11.5],
+			"to": [7.5, 6.5, 12.5],
+			"faces": {
+				"north": {"uv": [4, 9.5, 4.5, 13], "texture": "#1"},
+				"east": {"uv": [3.5, 9.5, 4.5, 13], "texture": "#1"},
+				"south": {"uv": [3.5, 9.5, 4, 13], "texture": "#1"},
+				"west": {"uv": [4.5, 9.5, 3.5, 13], "texture": "#1"},
+				"up": {"uv": [3.5, 9.5, 4.5, 10], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [3.5, 12.5, 4.5, 13], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_30",
+			"from": [7, 2, 12.5],
+			"to": [7.5, 5, 13],
+			"faces": {
+				"north": {"uv": [3, 11, 3.5, 14], "texture": "#1"},
+				"east": {"uv": [3, 11, 3.5, 14], "texture": "#1"},
+				"south": {"uv": [3, 11, 3.5, 14], "texture": "#1"},
+				"west": {"uv": [3.5, 11, 3, 14], "texture": "#1"},
+				"up": {"uv": [3, 11, 3.5, 11.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [3, 13.5, 3.5, 14], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_31",
+			"from": [7, 4.5, 9],
+			"to": [7.5, 5, 9.5],
+			"faces": {
+				"north": {"uv": [6.5, 11, 7, 11.5], "texture": "#1"},
+				"east": {"uv": [6.5, 11, 7, 11.5], "texture": "#1"},
+				"south": {"uv": [6.5, 11, 7, 11.5], "texture": "#1"},
+				"west": {"uv": [7, 11, 6.5, 11.5], "texture": "#1"},
+				"up": {"uv": [6.5, 11, 7, 11.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [6.5, 11, 7, 11.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_32",
+			"from": [7, 1.5, 13],
+			"to": [7.5, 4, 13.5],
+			"faces": {
+				"north": {"uv": [2.5, 12, 3, 14.5], "texture": "#1"},
+				"east": {"uv": [2.5, 12, 3, 14.5], "texture": "#1"},
+				"south": {"uv": [2.5, 12, 3, 14.5], "texture": "#1"},
+				"west": {"uv": [3, 12, 2.5, 14.5], "texture": "#1"},
+				"up": {"uv": [2.5, 12, 3, 12.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [2.5, 14, 3, 14.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_33",
+			"from": [7, 1, 13.5],
+			"to": [7.5, 3.5, 14],
+			"faces": {
+				"north": {"uv": [2, 12.5, 2.5, 15], "texture": "#1"},
+				"east": {"uv": [2, 12.5, 2.5, 15], "texture": "#1"},
+				"south": {"uv": [2, 12.5, 2.5, 15], "texture": "#1"},
+				"west": {"uv": [2.5, 12.5, 2, 15], "texture": "#1"},
+				"up": {"uv": [2, 12.5, 2.5, 13], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [2, 14.5, 2.5, 15], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_34",
+			"from": [7, 1.5, 9],
+			"to": [7.5, 3.5, 9.5],
+			"faces": {
+				"north": {"uv": [6.5, 12.5, 7, 14.5], "texture": "#1"},
+				"east": {"uv": [6.5, 12.5, 7, 14.5], "texture": "#1"},
+				"south": {"uv": [6.5, 12.5, 7, 14.5], "texture": "#1"},
+				"west": {"uv": [7, 12.5, 6.5, 14.5], "texture": "#1"},
+				"up": {"uv": [6.5, 12.5, 7, 13], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [6.5, 14, 7, 14.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_35",
+			"from": [7, 0, 14],
+			"to": [7.5, 3, 14.5],
+			"faces": {
+				"north": {"uv": [1.5, 13, 2, 16], "texture": "#1"},
+				"east": {"uv": [1.5, 13, 2, 16], "texture": "#1"},
+				"south": {"uv": [1.5, 13, 2, 16], "texture": "#1"},
+				"west": {"uv": [2, 13, 1.5, 16], "texture": "#1"},
+				"up": {"uv": [1.5, 13, 2, 13.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [1.5, 15.5, 2, 16], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_36",
+			"from": [7, 2.5, 12],
+			"to": [7.5, 3, 12.5],
+			"faces": {
+				"north": {"uv": [3.5, 13, 4, 13.5], "texture": "#1"},
+				"east": {"uv": [3.5, 13, 4, 13.5], "texture": "#1"},
+				"south": {"uv": [3.5, 13, 4, 13.5], "texture": "#1"},
+				"west": {"uv": [4, 13, 3.5, 13.5], "texture": "#1"},
+				"up": {"uv": [3.5, 13, 4, 13.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [3.5, 13, 4, 13.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_37",
+			"from": [7, 0, 14.5],
+			"to": [7.5, 2.5, 15],
+			"faces": {
+				"north": {"uv": [1, 13.5, 1.5, 16], "texture": "#1"},
+				"east": {"uv": [1, 13.5, 1.5, 16], "texture": "#1"},
+				"south": {"uv": [1, 13.5, 1.5, 16], "texture": "#1"},
+				"west": {"uv": [1.5, 13.5, 1, 16], "texture": "#1"},
+				"up": {"uv": [1, 13.5, 1.5, 14], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [1, 15.5, 1.5, 16], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_38",
+			"from": [7, 1.5, 8.5],
+			"to": [7.5, 2.5, 9],
+			"faces": {
+				"north": {"uv": [7, 13.5, 7.5, 14.5], "texture": "#1"},
+				"east": {"uv": [7, 13.5, 7.5, 14.5], "texture": "#1"},
+				"south": {"uv": [7, 13.5, 7.5, 14.5], "texture": "#1"},
+				"west": {"uv": [7.5, 13.5, 7, 14.5], "texture": "#1"},
+				"up": {"uv": [7, 13.5, 7.5, 14], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [7, 14, 7.5, 14.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_charging_2_39",
+			"from": [7, 0, 15],
+			"to": [7.5, 2, 16],
+			"faces": {
+				"north": {"uv": [0.5, 14, 1, 16], "texture": "#1"},
+				"east": {"uv": [0, 14, 1, 16], "texture": "#1"},
+				"south": {"uv": [0, 14, 0.5, 16], "texture": "#1"},
+				"west": {"uv": [1, 14, 0, 16], "texture": "#1"},
+				"up": {"uv": [0, 14, 1, 14.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 15.5, 1, 16], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [15, 0, 0],
+			"translation": [1.5, 11.5, -4],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [15, 0, 0],
+			"translation": [-1.5, 11.5, -4],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [20, 0, 0],
+			"translation": [1, 13.5, 0.75],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [20, 0, 0],
+			"translation": [-2, 13.5, 0.75],
+			"scale": [2, 2, 2]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"rotation": [0, -90, 0]
+		},
+		"head": {
+			"rotation": [-45, 0, 0],
+			"translation": [1.5, 6, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "galaxy_nova_charging_2",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+		}
+	]
+}

@@ -2,18 +2,19 @@ package net.damku1214.damkusweaponry.event;
 
 import net.damku1214.damkusweaponry.DamkusWeaponry;
 import net.damku1214.damkusweaponry.effect.ModEffects;
+import net.damku1214.damkusweaponry.item.ModItems;
 import net.minecraft.core.BlockPos;
-import net.minecraft.world.entity.Entity;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.animal.Animal;
-import net.minecraft.world.entity.animal.Chicken;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.level.block.AirBlock;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
-import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.living.LivingDamageEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -62,6 +63,28 @@ public class ModEvents {
                 if (vec3.y > 0) {
                     event.getEntity().setDeltaMovement(new Vec3(vec3.x, -vec3.y, vec3.z));
                 }
+            }
+        }
+
+        @SubscribeEvent
+        public static void capacitorExplode(LivingDamageEvent event) {
+            LivingEntity entity = event.getEntity();
+            ItemStack air = new ItemStack(Items.AIR);
+            Item mainhand = entity.getItemInHand(InteractionHand.MAIN_HAND).getItem();
+            Item offhand = entity.getItemInHand(InteractionHand.OFF_HAND).getItem();
+            Item capacitor = ModItems.OVERCHARGED_CAPACITOR.get();
+            if (mainhand.equals(capacitor) || offhand.equals(capacitor)) {
+                entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.GENERIC_EXPLODE,
+                        SoundSource.PLAYERS, 1.0F, 1F);
+                entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.SHIELD_BREAK,
+                        SoundSource.PLAYERS, 1.0F, 1F);
+                ((ServerLevel)entity.level()).sendParticles(ParticleTypes.EXPLOSION, entity.getX(), entity.getY(0.5D),
+                        entity.getZ(), 30, 0.2, 0.2, 0.2, 0.0D);
+                entity.hurt(entity.damageSources().explosion(entity, entity), 30);
+            } if (mainhand.equals(capacitor)) {
+                entity.setItemInHand(InteractionHand.MAIN_HAND, air);
+            } else if (offhand.equals(capacitor)) {
+                entity.setItemInHand(InteractionHand.OFF_HAND, air);
             }
         }
     }

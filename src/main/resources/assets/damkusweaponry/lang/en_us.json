@@ -13,6 +13,9 @@
   "item.minecraft.lingering_potion.effect.sticky_feet_potion": "Lingering Potion of Sticky Feet",
   "item.minecraft.tipped_arrow.effect.sticky_feet_potion": "Arrow of Sticky Feet",
   "item.damkusweaponry.sticky_feet_potion_sample": "Sticky Feet Potion Sample",
+  "item.damkusweaponry.galaxy_nova": "Divider of Realms: Galaxy Nova",
+  "item.damkusweaponry.soul_fire_charge": "Soul Fire Charge",
+  "item.damkusweaponry.overcharged_capacitor": "Overcharged Capacitor",
 
   "block.damkusweaponry.tehonite_block": "Tehonite Block",
   "block.damkusweaponry.tehonite_ore": "Tehonite Ore",
@@ -26,7 +29,7 @@
   "advancement.knowledge_overflow.title": "Knowledge Overflow",
   "advancement.knowledge_overflow.description": "Obtain the Jade Vine Sickle and become the owner of unlimited knowledge",
   "advancement.whos_the_smartest_now.title": "Who's the Smartest Now?",
-  "advancement.whos_the_smartest_now.description": "Beat the Librarian with KNOWLEDGE",
+  "advancement.whos_the_smartest_now.description": "Beat the Librarian with its own speciality, KNOWLEDGE",
   "advancement.deep_down_in_the_badlands.title": "Deep Down in the Badlands",
   "advancement.deep_down_in_the_badlands.description": "Smelt Tehonite, found in the depths of the Badlands",
   "advancement.molten_and_melted.title": "Molten and Melted",
@@ -37,12 +40,21 @@
   "advancement.time_to_stick.description": "Brew a Sticky Feet Potion",
   "advancement.sticky_consequences.title": "Sticky Consequences",
   "advancement.sticky_consequences.description": "Drink a Sticky Feet Potion.. for some reason",
+  "advancement.soul_collector.title": "Soul Collector",
+  "advancement.soul_collector.description": "Don't mess with other's souls, especially ones that aren't yours",
+  "advancement.alternative_energy.title": "Alternative Energy",
+  "advancement.alternative_energy.description": "Get your hands on extremely dangerous explosives",
+  "advancement.hailing_light.title": "Hailing Light",
+  "advancement.hailing_light.description": "Craft a Galaxy Nova, the divider of realms",
+  "advancement.explosive_addiction.title": "Explosive Addiction",
+  "advancement.explosive_addiction.description": "Completely use up a Galaxy Nova, then count how many souls you crushed with it",
 
   "effect.damkusweaponry.skandhas_curse": "Skandha's Curse",
   "effect.damkusweaponry.sticky_feet": "Sticky Feet",
 
   "sounds.damkusweaponry.jade_vine_sickle_use_short": "Jade Vine Sickle Slashes",
   "sounds.damkusweaponry.jade_vine_sickle_use_long": "Jade Vine Sickle Swings",
+  "sounds.damkusweaponry.galaxy_nova_shoot": "Galaxy Nova Fires",
 
   "enchantment.damkusweaponry.destiny_elucidation": "Destiny Elucidation",
 
@@ -53,6 +65,8 @@
   "item.minecraft.smithing_template.tehonite_upgrade.additions_slot_description": "Add Molten Tehonite",
 
   "tooltip.damkusweaponry.before_shift.tooltip": "Press §a§lSHIFT§r for More Information",
-  "tooltip.damkusweaponry.jade_vine_sickle.tooltip.shift": "\n§eBinding of Wisdom §a§lRMB§r\nDeals §c5§r damage and applies the §dSkandha's Curse§r effect to entities that are in a 5 block radius. §7Cooldown 5s\n\n§eTri-Karma Backlash §a§lHold RMB§r\nDeals §c7§r damage to entities that are in a 7 block radius. Inflicts §c4§r extra damage to entities that has the §dSkandha's Curse§r effect. The extra damage negates effects like resistance and absorption. §7Cooldown 8s\n\n§dSkandha's Curse§r\nWhen an entity with this effect take damage, it takes extra damage depending on its max health. This damage negates effects such as resistance and absorption.\n§7Max health ~50 = §c10% §7of max health\nMax health 51~100 = §c5% §7of max health\nMax health 101~250 = §c2% §7of max health\nMax health 251~ = §c1% §7of max health\n\nIn order to wield such an amount of knowledge, the vessel shall meet the conditions. If overcapacitated, the vessel will face its laziness, ignorance, recklessness, or arrogance.\n",
-  "tooltip.damkusweaponry.tehonite_bow.tooltip.shift": "\n§eArrow Barrage §a§lPASSIVE§r\nShooting this bow does not require charging, however the arrow's range and damage is decreased when shot. Also, the arrow's damage and range is not affected by how long the player has charged the bow.\n\n§7This bow's potential differs drastically depending on the user's skill, making many people simply ignore it. However, if you wield such skill, no other bow can perform like this one.\n"
+  "tooltip.damkusweaponry.jade_vine_sickle.tooltip.shift": "\n§eBinding of Wisdom §a§lRMB§r\nDeals §c5§r magic damage and applies the §dSkandha's Curse§r effect to entities that are in a 5 block radius. §7Cooldown 5s\n\n§eTri-Karma Backlash §a§lHold RMB§r\nDeals §c7§r magic damage to entities that are in a 7 block radius. Inflicts §c4§r extra damage to entities that has the §dSkandha's Curse§r effect. The extra damage negates effects like resistance and absorption. §7Cooldown 8s\n\n§dSkandha's Curse§r\nWhen an entity with this effect take damage, it takes extra damage depending on its max health. This damage negates effects such as resistance and absorption.\n§7Max health ~50 = §c10% §7of max health\nMax health 51~100 = §c5% §7of max health\nMax health 101~250 = §c2% §7of max health\nMax health 251~ = §c1% §7of max health\n\nIn order to wield such an amount of knowledge, the vessel shall meet the conditions. If overcapacitated, the vessel will face its laziness, ignorance, recklessness, or arrogance.\n",
+  "tooltip.damkusweaponry.tehonite_bow.tooltip.shift": "\n§eArrow Barrage §a§lPASSIVE§r\nShooting this bow does not require charging, however the arrow's range and damage is decreased when shot. Also, the arrow's damage and range is not affected by how long the player has charged the bow.\n\n§7This bow's potential differs drastically depending on the user's skill, making many people simply ignore it. However, if you wield such skill, no other bow can perform like this one.\n",
+  "tooltip.damkusweaponry.galaxy_nova.tooltip.shift": "\n§eColliding Universes §a§lHold RMB§r\nWhile holding, slowly transforms the sword into a railgun and starts charging. There are three stages of charging depending on how long the user held down, which differs the damage, range, the durability cost, and the cooldown of the shot. §7Cooldown 10~20s\nLevel 1 (Blue) - §c50 §7damage, 60 block range, 20 durability, and 10s cooldown\nLevel 2 (Red) - §c75 §7damage, 90 block range, 30 durability, and 15s cooldown\nLevel 3 (Purple) - §c100 §7damage, 120 block range, 40 durability, and 20s cooldown§r\nIf held for too long, the Galaxy Nova will overload and explode, harming the user and losing 100 durability. All damage inflicted via this ability counts as explosion damage.\n\n§7A huge sword known to be made by the mysterious 'Ancient Meisters'. Its weight and output are so great that only people worthy can even wield this weapon in their hands. For some reason, its railgun feature was found out several years after its discovery.\n",
+  "tooltip.damkusweaponry.overcharged_capacitor.tooltip": "§c§l!!! WARNING !!! §rVery Fragile. Handle with care."
 }

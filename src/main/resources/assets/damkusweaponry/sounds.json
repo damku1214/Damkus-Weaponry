@@ -10,5 +10,11 @@
     "sounds": [
       "damkusweaponry:jade_vine_sickle_use_long"
     ]
+  },
+  "galaxy_nova_shoot": {
+    "subtitle": "sounds.damkusweaponry.galaxy_nova_shoot",
+    "sounds": [
+      "damkusweaponry:galaxy_nova_shoot"
+    ]
   }
 }

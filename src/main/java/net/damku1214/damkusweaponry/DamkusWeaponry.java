@@ -68,10 +68,13 @@ public class DamkusWeaponry {
             event.accept(ModItems.TEHONITE);
             event.accept(ModItems.RAW_TEHONITE);
             event.accept(ModItems.MOLTEN_TEHONITE);
+            event.accept(ModItems.SOUL_FIRE_CHARGE);
+            event.accept(ModItems.OVERCHARGED_CAPACITOR);
         }
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.JADE_VINE_SICKLE);
             event.accept(ModItems.TEHONITE_BOW);
+            event.accept(ModItems.GALAXY_NOVA);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.TEHONITE_BLOCK);
@@ -79,6 +82,9 @@ public class DamkusWeaponry {
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.TEHONITE_ORE);
             event.accept(ModBlocks.DEEPSLATE_TEHONITE_ORE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.SOUL_FIRE_CHARGE);
         }
     }
 

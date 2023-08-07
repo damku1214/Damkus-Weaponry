@@ -13,6 +13,9 @@
   "item.minecraft.lingering_potion.effect.sticky_feet_potion": "잔류형 끈적한 발의 물약",
   "item.minecraft.tipped_arrow.effect.sticky_feet_potion": "끈적한 발의 화살",
   "item.damkusweaponry.sticky_feet_potion_sample": "끈적한 발의 물약 샘플",
+  "item.damkusweaponry.galaxy_nova": "차원의 절단자: 갤럭시 노바",
+  "item.damkusweaponry.soul_fire_charge": "영혼 화염구",
+  "item.damkusweaponry.overcharged_capacitor": "과충전된 축전기",
 
   "block.damkusweaponry.tehonite_block": "태허나이트 블럭",
   "block.damkusweaponry.tehonite_ore": "태허나이트 광석",
@@ -26,7 +29,7 @@
   "advancement.knowledge_overflow.title": "차고 넘치는 지식",
   "advancement.knowledge_overflow.description": "비취 덩굴 낫을 얻고 무한한 지식의 주인이 되세요",
   "advancement.whos_the_smartest_now.title": "이제 누가 천재지?",
-  "advancement.whos_the_smartest_now.description": "사서를 '지식'의 힘으로 무찌르세요",
+  "advancement.whos_the_smartest_now.description": "사서를 그의 특기인 '지식'으로 무찌르세요",
   "advancement.deep_down_in_the_badlands.title": "악지 깊디깊은 곳에",
   "advancement.deep_down_in_the_badlands.description": "태허나이트를 제련하세요",
   "advancement.molten_and_melted.title": "녹고 또 녹이고",
@@ -37,12 +40,21 @@
   "advancement.time_to_stick.description": "끈적한 발의 물약을 만드세요",
   "advancement.sticky_consequences.title": "끈적한 후폭풍",
   "advancement.sticky_consequences.description": "끈적한 발의 물약을 마시세요.. 그 이유가 뭐가 됏는 간에",
+  "advancement.soul_collector.title": "영혼 수집가",
+  "advancement.soul_collector.description": "영혼 가지고 장난 치지 마세요, 특히 당신 것이 아니라면 말이에요",
+  "advancement.alternative_energy.title": "재생 에너지",
+  "advancement.alternative_energy.description": "심각하게 위험한 폭발물에 손을 대세요",
+  "advancement.hailing_light.title": "빛이여",
+  "advancement.hailing_light.description": "차원의 절단자, 갤럭시 노바를 제작하세요",
+  "advancement.explosive_addiction.title": "폭발적인 중독",
+  "advancement.explosive_addiction.description": "갤럭시 노바를 완전히 사용한 후, 그걸로 앗아간 생명의 수를 세보세요",
 
   "effect.damkusweaponry.skandhas_curse": "스칸다의 저주",
   "effect.damkusweaponry.sticky_feet": "끈적한 발",
 
   "sounds.damkusweaponry.jade_vine_sickle_use_short": "비취 덩굴 낫을 휘두름",
   "sounds.damkusweaponry.jade_vine_sickle_use_long": "비취 덩굴 낫을 강하게 휘두름",
+  "sounds.damkusweaponry.galaxy_nova_shoot": "갤럭시 노바가 발사함",
 
   "enchantment.damkusweaponry.destiny_elucidation": "필연을 증명하는 지론",
 
@@ -53,6 +65,8 @@
   "item.minecraft.smithing_template.tehonite_upgrade.additions_slot_description": "녹은 태허나이트를 놓으세요",
 
   "tooltip.damkusweaponry.before_shift.tooltip": "§a§l웅크리기§r 를 눌러 자세히 보기",
-  "tooltip.damkusweaponry.jade_vine_sickle.tooltip.shift": "\n§e지혜의 속박 §a§l우클릭§r\n5칸 이내의 몹들에게 §c5§r 데미지를 입히고 §d스칸다의 저주§r 효과를 부여한다. §7쿨타임 5초\n\n§e삼업의 반역 §a§l우클릭 홀드§r\n7칸 이내의 몹들에게 §c7§r 데미지를 입힌다. §d스칸다의 저주§r 가 부여된 대상에게는 §c4§r 데미지를 추가로 입힌다. 이 추가 피해는 저항과 흡수 등 각종 효과들을 무시하고 적용된다. §7쿨타임 8초\n\n§d스칸다의 저주§r\n피해를 입을 때마다 최대 체력에 비례하여 추가 데미지를 입는다. 이 효과의 피해는 저항과 흡수 등 각종 효과를 무시하고 적용된다.\n§7최대 체력 ~50 = 최대 체력의 §c10%§7\n최대 체력 51~100 = 최대 체력의 §c5%§7\n최대 체력 101~250 = 최대 체력의 §c2%§7\n최대 체력 251~ = 최대 체력의 §c1%§7\n\n이렇게나 많은 양의 지식을 받아들이는 것은 조건에 부합하는 그릇만 가능한 일이다. 지혜가 넘쳐흐르기 시작하면, 그릇은 자신의 게으름과 우매함 그리고 무모함과 오만함을 마주할 것이다.\n",
-  "tooltip.damkusweaponry.tehonite_bow.tooltip.shift": "\n§e고속 연사 §a§l패시브§r\n이 활은 장전이 필요 없다. 그러나, 발사되는 화살의 사거리와 데미지가 감소하고, 화살의 데미지와 사거리는 장전 시간에 비례하지 않는다.\n\n§7이 활은 쓰는 사람마다 성능이 천차만별이라, 보통 사람들한테 외면받는 활이다. 그러나 능력이 충분하다면, 이 활보다 좋은 성능의 활을 찾기 매우 드물 것이다.\n"
+  "tooltip.damkusweaponry.jade_vine_sickle.tooltip.shift": "\n§e지혜의 속박 §a§l우클릭§r\n5칸 이내의 몹들에게 §c5§r 마법 데미지를 입히고 §d스칸다의 저주§r 효과를 부여한다. §7쿨타임 5초\n\n§e삼업의 반역 §a§l우클릭 홀드§r\n7칸 이내의 몹들에게 §c7§r 마법 데미지를 입힌다. §d스칸다의 저주§r 가 부여된 대상에게는 §c4§r 데미지를 추가로 입힌다. 이 추가 피해는 저항과 흡수 등 각종 효과들을 무시하고 적용된다. §7쿨타임 8초\n\n§d스칸다의 저주§r\n피해를 입을 때마다 최대 체력에 비례하여 추가 데미지를 입는다. 이 효과의 피해는 저항과 흡수 등 각종 효과를 무시하고 적용된다.\n§7최대 체력 ~50 = 최대 체력의 §c10%§7\n최대 체력 51~100 = 최대 체력의 §c5%§7\n최대 체력 101~250 = 최대 체력의 §c2%§7\n최대 체력 251~ = 최대 체력의 §c1%§7\n\n이렇게나 많은 양의 지식을 받아들이는 것은 조건에 부합하는 그릇만 가능한 일이다. 지혜가 넘쳐흐르기 시작하면, 그릇은 자신의 게으름과 우매함 그리고 무모함과 오만함을 마주할 것이다.\n",
+  "tooltip.damkusweaponry.tehonite_bow.tooltip.shift": "\n§e고속 연사 §a§l패시브§r\n이 활은 장전이 필요 없다. 그러나, 발사되는 화살의 사거리와 데미지가 감소하고, 화살의 데미지와 사거리는 장전 시간에 비례하지 않는다.\n\n§7이 활은 쓰는 사람마다 성능이 천차만별이라, 보통 사람들한테 외면받는 활이다. 그러나 능력이 충분하다면, 이 활보다 좋은 성능의 활을 찾기 매우 드물 것이다.\n",
+  "tooltip.damkusweaponry.galaxy_nova.tooltip.shift": "\n§e은하 붕괴 §a§l우클릭 홀드§r\n우클릭을 누르고 있을 때 검이 서서히 레일건으로 변하고 충전을 시작한다. 우클릭을 누른 시간에 비레하여 충전 단계는 3개로 나눠져 있다. 충전 단계에 따라 데미지, 사정거리, 내구도 감소량 및 쿨타임이 달라진다. §7쿨타임 10~20초\n1단계 (파랑) - §c50 §7데미지, 사정거리 60 블럭, 내구도 20 감소, 쿨타임 10초\n2단계 (빨강) - §c75 §7데미지, 사정거리 90 블럭, 내구도 30 감소, 쿨타임 15초\n1단계 (파랑) - §c100 §7데미지, 사정거리 120 블럭, 내구도 40 감소, 쿨타임 20초§r\n너무 오랫동안 누르고 있으면 갤럭시 노바가 과부화하며, 사용자에게 피해를 입히고 내구도가 대폭 감소한다. 이 능력에 의해 입혀지는 데미지는 모두 폭발 피해로 간주한다.\n\n§7신비한 '고대의 마이스터들' 에 의해 만들어진 크고 우람한 대검. 무게와 출력이 엄청나기 때문에 자격이 있는 자만이 이 무기를 손에 쥘 수라도 있다. 무슨 이유인지는 모르겠지만, 갤럭시 노바의 레일건 능력은 무기의 첫 발견 후 몇 년 뒤에나 관측되었다.\n",
+  "tooltip.damkusweaponry.overcharged_capacitor.tooltip": "§c§l!!! 경고 !!! §r부서지기 쉽습니다. 취급에 주의해주세요."
 }

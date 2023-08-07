@@ -17,9 +17,10 @@ public class ModSounds {
 
     public static final RegistryObject<SoundEvent> JADE_VINE_SICKLE_USE_SHORT =
             registerSoundEvent("jade_vine_sickle_use_short");
-
     public static final RegistryObject<SoundEvent> JADE_VINE_SICKLE_USE_LONG =
             registerSoundEvent("jade_vine_sickle_use_long");
+    public static final RegistryObject<SoundEvent> GALAXY_NOVA_SHOOT =
+            registerSoundEvent("galaxy_nova_shoot");
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
         ResourceLocation id = new ResourceLocation(DamkusWeaponry.MOD_ID, name);

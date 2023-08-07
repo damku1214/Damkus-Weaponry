@@ -1,0 +1,1489 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "damkusweaponry:item/galaxy_nova",
+		"particle": "damkusweaponry:item/galaxy_nova"
+	},
+	"elements": [
+		{
+			"name": "galaxy_nova_0",
+			"from": [7, 13.5, 0.125],
+			"to": [7.5, 16, 2.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [15.5, 0, 16, 2.5], "texture": "#1"},
+				"east": {"uv": [13.5, 0, 16, 2.5], "texture": "#1"},
+				"south": {"uv": [13.5, 0, 14, 2.5], "texture": "#1"},
+				"west": {"uv": [16, 0, 13.5, 2.5], "texture": "#1"},
+				"up": {"uv": [13.5, 0, 16, 0.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [13.5, 2, 16, 2.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_1",
+			"from": [7, 11, 2.625],
+			"to": [7.5, 15.5, 3.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [13, 0.5, 13.5, 5], "texture": "#1"},
+				"east": {"uv": [13, 0.5, 13.5, 5], "texture": "#1"},
+				"south": {"uv": [13, 0.5, 13.5, 5], "texture": "#1"},
+				"west": {"uv": [13.5, 0.5, 13, 5], "texture": "#1"},
+				"up": {"uv": [13, 0.5, 13.5, 1], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [13, 4.5, 13.5, 5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_2",
+			"from": [7, 10.5, 3.125],
+			"to": [7.5, 15, 3.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [12.5, 1, 13, 5.5], "texture": "#1"},
+				"east": {"uv": [12.5, 1, 13, 5.5], "texture": "#1"},
+				"south": {"uv": [12.5, 1, 13, 5.5], "texture": "#1"},
+				"west": {"uv": [13, 1, 12.5, 5.5], "texture": "#1"},
+				"up": {"uv": [12.5, 1, 13, 1.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [12.5, 5, 13, 5.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_3",
+			"from": [7, 10, 3.625],
+			"to": [7.5, 14.5, 4.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [12, 1.5, 12.5, 6], "texture": "#1"},
+				"east": {"uv": [12, 1.5, 12.5, 6], "texture": "#1"},
+				"south": {"uv": [12, 1.5, 12.5, 6], "texture": "#1"},
+				"west": {"uv": [12.5, 1.5, 12, 6], "texture": "#1"},
+				"up": {"uv": [12, 1.5, 12.5, 2], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [12, 5.5, 12.5, 6], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_4",
+			"from": [7, 9.5, 4.125],
+			"to": [7.5, 14, 4.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [11.5, 2, 12, 6.5], "texture": "#1"},
+				"east": {"uv": [11.5, 2, 12, 6.5], "texture": "#1"},
+				"south": {"uv": [11.5, 2, 12, 6.5], "texture": "#1"},
+				"west": {"uv": [12, 2, 11.5, 6.5], "texture": "#1"},
+				"up": {"uv": [11.5, 2, 12, 2.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [11.5, 6, 12, 6.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_5",
+			"from": [7, 9, 4.625],
+			"to": [7.5, 13.5, 5.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [11, 2.5, 11.5, 7], "texture": "#1"},
+				"east": {"uv": [11, 2.5, 11.5, 7], "texture": "#1"},
+				"south": {"uv": [11, 2.5, 11.5, 7], "texture": "#1"},
+				"west": {"uv": [11.5, 2.5, 11, 7], "texture": "#1"},
+				"up": {"uv": [11, 2.5, 11.5, 3], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [11, 6.5, 11.5, 7], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_6",
+			"from": [7, 12.5, 1.125],
+			"to": [7.5, 13.5, 2.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [14.5, 2.5, 15, 3.5], "texture": "#1"},
+				"east": {"uv": [13.5, 2.5, 15, 3.5], "texture": "#1"},
+				"south": {"uv": [13.5, 2.5, 14, 3.5], "texture": "#1"},
+				"west": {"uv": [15, 2.5, 13.5, 3.5], "texture": "#1"},
+				"up": {"uv": [13.5, 2.5, 15, 3], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [13.5, 3, 15, 3.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_7",
+			"from": [7, 13, 0.625],
+			"to": [7.5, 13.5, 1.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [15, 2.5, 15.5, 3], "texture": "#1"},
+				"east": {"uv": [15, 2.5, 15.5, 3], "texture": "#1"},
+				"south": {"uv": [15, 2.5, 15.5, 3], "texture": "#1"},
+				"west": {"uv": [15.5, 2.5, 15, 3], "texture": "#1"},
+				"up": {"uv": [15, 2.5, 15.5, 3], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [15, 2.5, 15.5, 3], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_8",
+			"from": [7, 9, 5.125],
+			"to": [7.5, 13, 5.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [10.5, 3, 11, 7], "texture": "#1"},
+				"east": {"uv": [10.5, 3, 11, 7], "texture": "#1"},
+				"south": {"uv": [10.5, 3, 11, 7], "texture": "#1"},
+				"west": {"uv": [11, 3, 10.5, 7], "texture": "#1"},
+				"up": {"uv": [10.5, 3, 11, 3.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [10.5, 6.5, 11, 7], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_9",
+			"from": [7, 8.5, 5.625],
+			"to": [7.5, 12.5, 6.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [10, 3.5, 10.5, 7.5], "texture": "#1"},
+				"east": {"uv": [10, 3.5, 10.5, 7.5], "texture": "#1"},
+				"south": {"uv": [10, 3.5, 10.5, 7.5], "texture": "#1"},
+				"west": {"uv": [10.5, 3.5, 10, 7.5], "texture": "#1"},
+				"up": {"uv": [10, 3.5, 10.5, 4], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [10, 7, 10.5, 7.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_10",
+			"from": [7, 12, 1.625],
+			"to": [7.5, 12.5, 2.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [14, 3.5, 14.5, 4], "texture": "#1"},
+				"east": {"uv": [13.5, 3.5, 14.5, 4], "texture": "#1"},
+				"south": {"uv": [13.5, 3.5, 14, 4], "texture": "#1"},
+				"west": {"uv": [14.5, 3.5, 13.5, 4], "texture": "#1"},
+				"up": {"uv": [13.5, 3.5, 14.5, 4], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [13.5, 3.5, 14.5, 4], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_11",
+			"from": [7, 8, 6.125],
+			"to": [7.5, 12, 6.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [9.5, 4, 10, 8], "texture": "#1"},
+				"east": {"uv": [9.5, 4, 10, 8], "texture": "#1"},
+				"south": {"uv": [9.5, 4, 10, 8], "texture": "#1"},
+				"west": {"uv": [10, 4, 9.5, 8], "texture": "#1"},
+				"up": {"uv": [9.5, 4, 10, 4.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [9.5, 7.5, 10, 8], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_12",
+			"from": [7, 11.5, 2.125],
+			"to": [7.5, 12, 2.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [13.5, 4, 14, 4.5], "texture": "#1"},
+				"east": {"uv": [13.5, 4, 14, 4.5], "texture": "#1"},
+				"south": {"uv": [13.5, 4, 14, 4.5], "texture": "#1"},
+				"west": {"uv": [14, 4, 13.5, 4.5], "texture": "#1"},
+				"up": {"uv": [13.5, 4, 14, 4.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [13.5, 4, 14, 4.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_13",
+			"from": [7, 7.5, 6.625],
+			"to": [7.5, 11.5, 7.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [9, 4.5, 9.5, 8.5], "texture": "#1"},
+				"east": {"uv": [9, 4.5, 9.5, 8.5], "texture": "#1"},
+				"south": {"uv": [9, 4.5, 9.5, 8.5], "texture": "#1"},
+				"west": {"uv": [9.5, 4.5, 9, 8.5], "texture": "#1"},
+				"up": {"uv": [9, 4.5, 9.5, 5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [9, 8, 9.5, 8.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_14",
+			"from": [7, 6.5, 7.125],
+			"to": [7.5, 10.5, 7.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [8.5, 5.5, 9, 9.5], "texture": "#1"},
+				"east": {"uv": [8.5, 5.5, 9, 9.5], "texture": "#1"},
+				"south": {"uv": [8.5, 5.5, 9, 9.5], "texture": "#1"},
+				"west": {"uv": [9, 5.5, 8.5, 9.5], "texture": "#1"},
+				"up": {"uv": [8.5, 5.5, 9, 6], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [8.5, 9, 9, 9.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_15",
+			"from": [7, 6, 7.625],
+			"to": [7.5, 10, 8.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [8, 6, 8.5, 10], "texture": "#1"},
+				"east": {"uv": [8, 6, 8.5, 10], "texture": "#1"},
+				"south": {"uv": [8, 6, 8.5, 10], "texture": "#1"},
+				"west": {"uv": [8.5, 6, 8, 10], "texture": "#1"},
+				"up": {"uv": [8, 6, 8.5, 6.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [8, 9.5, 8.5, 10], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_16",
+			"from": [7, 5.5, 8.125],
+			"to": [7.5, 9.5, 8.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [7.5, 6.5, 8, 10.5], "texture": "#1"},
+				"east": {"uv": [7.5, 6.5, 8, 10.5], "texture": "#1"},
+				"south": {"uv": [7.5, 6.5, 8, 10.5], "texture": "#1"},
+				"west": {"uv": [8, 6.5, 7.5, 10.5], "texture": "#1"},
+				"up": {"uv": [7.5, 6.5, 8, 7], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [7.5, 10, 8, 10.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_17",
+			"from": [7, 5, 8.625],
+			"to": [7.5, 9, 9.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [7, 7, 7.5, 11], "texture": "#1"},
+				"east": {"uv": [6.5, 7, 7.5, 11], "texture": "#1"},
+				"south": {"uv": [6.5, 7, 7, 11], "texture": "#1"},
+				"west": {"uv": [7.5, 7, 6.5, 11], "texture": "#1"},
+				"up": {"uv": [6.5, 7, 7.5, 7.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [6.5, 10.5, 7.5, 11], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_18",
+			"from": [7, 2, 9.625],
+			"to": [7.5, 8.5, 10.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [6, 7.5, 6.5, 14], "texture": "#1"},
+				"east": {"uv": [6, 7.5, 6.5, 14], "texture": "#1"},
+				"south": {"uv": [6, 7.5, 6.5, 14], "texture": "#1"},
+				"west": {"uv": [6.5, 7.5, 6, 14], "texture": "#1"},
+				"up": {"uv": [6, 7.5, 6.5, 8], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [6, 13.5, 6.5, 14], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_19",
+			"from": [7, 2, 10.125],
+			"to": [7.5, 8, 10.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [5.5, 8, 6, 14], "texture": "#1"},
+				"east": {"uv": [5.5, 8, 6, 14], "texture": "#1"},
+				"south": {"uv": [5.5, 8, 6, 14], "texture": "#1"},
+				"west": {"uv": [6, 8, 5.5, 14], "texture": "#1"},
+				"up": {"uv": [5.5, 8, 6, 8.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [5.5, 13.5, 6, 14], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_20",
+			"from": [7, 6.5, 13.625],
+			"to": [7.5, 7.5, 14.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [2, 8.5, 2.5, 9.5], "texture": "#1"},
+				"east": {"uv": [1.5, 8.5, 2.5, 9.5], "texture": "#1"},
+				"south": {"uv": [1.5, 8.5, 2, 9.5], "texture": "#1"},
+				"west": {"uv": [2.5, 8.5, 1.5, 9.5], "texture": "#1"},
+				"up": {"uv": [1.5, 8.5, 2.5, 9], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [1.5, 9, 2.5, 9.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_21",
+			"from": [7, 2.5, 10.625],
+			"to": [7.5, 7.5, 11.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [5, 8.5, 5.5, 13.5], "texture": "#1"},
+				"east": {"uv": [5, 8.5, 5.5, 13.5], "texture": "#1"},
+				"south": {"uv": [5, 8.5, 5.5, 13.5], "texture": "#1"},
+				"west": {"uv": [5.5, 8.5, 5, 13.5], "texture": "#1"},
+				"up": {"uv": [5, 8.5, 5.5, 9], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [5, 13, 5.5, 13.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_22",
+			"from": [7, 5, 12.625],
+			"to": [7.5, 7, 13.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [3, 9, 3.5, 11], "texture": "#1"},
+				"east": {"uv": [2.5, 9, 3.5, 11], "texture": "#1"},
+				"south": {"uv": [2.5, 9, 3, 11], "texture": "#1"},
+				"west": {"uv": [3.5, 9, 2.5, 11], "texture": "#1"},
+				"up": {"uv": [2.5, 9, 3.5, 9.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [2.5, 10.5, 3.5, 11], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_23",
+			"from": [7, 3, 11.125],
+			"to": [7.5, 7, 11.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [4.5, 9, 5, 13], "texture": "#1"},
+				"east": {"uv": [4.5, 9, 5, 13], "texture": "#1"},
+				"south": {"uv": [4.5, 9, 5, 13], "texture": "#1"},
+				"west": {"uv": [5, 9, 4.5, 13], "texture": "#1"},
+				"up": {"uv": [4.5, 9, 5, 9.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [4.5, 12.5, 5, 13], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_24",
+			"from": [7, 5.5, 13.625],
+			"to": [7.5, 6.5, 14.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [2, 9.5, 2.5, 10.5], "texture": "#1"},
+				"east": {"uv": [2, 9.5, 2.5, 10.5], "texture": "#1"},
+				"south": {"uv": [2, 9.5, 2.5, 10.5], "texture": "#1"},
+				"west": {"uv": [2.5, 9.5, 2, 10.5], "texture": "#1"},
+				"up": {"uv": [2, 9.5, 2.5, 10], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [2, 10, 2.5, 10.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_25",
+			"from": [7, 3, 11.625],
+			"to": [7.5, 6.5, 12.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [4, 9.5, 4.5, 13], "texture": "#1"},
+				"east": {"uv": [3.5, 9.5, 4.5, 13], "texture": "#1"},
+				"south": {"uv": [3.5, 9.5, 4, 13], "texture": "#1"},
+				"west": {"uv": [4.5, 9.5, 3.5, 13], "texture": "#1"},
+				"up": {"uv": [3.5, 9.5, 4.5, 10], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [3.5, 12.5, 4.5, 13], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_26",
+			"from": [7, 2, 12.625],
+			"to": [7.5, 5, 13.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [3, 11, 3.5, 14], "texture": "#1"},
+				"east": {"uv": [3, 11, 3.5, 14], "texture": "#1"},
+				"south": {"uv": [3, 11, 3.5, 14], "texture": "#1"},
+				"west": {"uv": [3.5, 11, 3, 14], "texture": "#1"},
+				"up": {"uv": [3, 11, 3.5, 11.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [3, 13.5, 3.5, 14], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_27",
+			"from": [7, 4.5, 9.125],
+			"to": [7.5, 5, 9.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [6.5, 11, 7, 11.5], "texture": "#1"},
+				"east": {"uv": [6.5, 11, 7, 11.5], "texture": "#1"},
+				"south": {"uv": [6.5, 11, 7, 11.5], "texture": "#1"},
+				"west": {"uv": [7, 11, 6.5, 11.5], "texture": "#1"},
+				"up": {"uv": [6.5, 11, 7, 11.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [6.5, 11, 7, 11.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_28",
+			"from": [7, 1.5, 13.125],
+			"to": [7.5, 4, 13.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [2.5, 12, 3, 14.5], "texture": "#1"},
+				"east": {"uv": [2.5, 12, 3, 14.5], "texture": "#1"},
+				"south": {"uv": [2.5, 12, 3, 14.5], "texture": "#1"},
+				"west": {"uv": [3, 12, 2.5, 14.5], "texture": "#1"},
+				"up": {"uv": [2.5, 12, 3, 12.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [2.5, 14, 3, 14.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_29",
+			"from": [7, 1, 13.625],
+			"to": [7.5, 3.5, 14.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [2, 12.5, 2.5, 15], "texture": "#1"},
+				"east": {"uv": [2, 12.5, 2.5, 15], "texture": "#1"},
+				"south": {"uv": [2, 12.5, 2.5, 15], "texture": "#1"},
+				"west": {"uv": [2.5, 12.5, 2, 15], "texture": "#1"},
+				"up": {"uv": [2, 12.5, 2.5, 13], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [2, 14.5, 2.5, 15], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_30",
+			"from": [7, 1.5, 9.125],
+			"to": [7.5, 3.5, 9.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [6.5, 12.5, 7, 14.5], "texture": "#1"},
+				"east": {"uv": [6.5, 12.5, 7, 14.5], "texture": "#1"},
+				"south": {"uv": [6.5, 12.5, 7, 14.5], "texture": "#1"},
+				"west": {"uv": [7, 12.5, 6.5, 14.5], "texture": "#1"},
+				"up": {"uv": [6.5, 12.5, 7, 13], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [6.5, 14, 7, 14.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_31",
+			"from": [7, 0, 14.125],
+			"to": [7.5, 3, 14.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [1.5, 13, 2, 16], "texture": "#1"},
+				"east": {"uv": [1.5, 13, 2, 16], "texture": "#1"},
+				"south": {"uv": [1.5, 13, 2, 16], "texture": "#1"},
+				"west": {"uv": [2, 13, 1.5, 16], "texture": "#1"},
+				"up": {"uv": [1.5, 13, 2, 13.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [1.5, 15.5, 2, 16], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_32",
+			"from": [7, 2.5, 12.125],
+			"to": [7.5, 3, 12.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [3.5, 13, 4, 13.5], "texture": "#1"},
+				"east": {"uv": [3.5, 13, 4, 13.5], "texture": "#1"},
+				"south": {"uv": [3.5, 13, 4, 13.5], "texture": "#1"},
+				"west": {"uv": [4, 13, 3.5, 13.5], "texture": "#1"},
+				"up": {"uv": [3.5, 13, 4, 13.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [3.5, 13, 4, 13.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_33",
+			"from": [7, 0, 14.625],
+			"to": [7.5, 2.5, 15.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [1, 13.5, 1.5, 16], "texture": "#1"},
+				"east": {"uv": [1, 13.5, 1.5, 16], "texture": "#1"},
+				"south": {"uv": [1, 13.5, 1.5, 16], "texture": "#1"},
+				"west": {"uv": [1.5, 13.5, 1, 16], "texture": "#1"},
+				"up": {"uv": [1, 13.5, 1.5, 14], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [1, 15.5, 1.5, 16], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_34",
+			"from": [7, 1.5, 8.625],
+			"to": [7.5, 2.5, 9.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [7, 13.5, 7.5, 14.5], "texture": "#1"},
+				"east": {"uv": [7, 13.5, 7.5, 14.5], "texture": "#1"},
+				"south": {"uv": [7, 13.5, 7.5, 14.5], "texture": "#1"},
+				"west": {"uv": [7.5, 13.5, 7, 14.5], "texture": "#1"},
+				"up": {"uv": [7, 13.5, 7.5, 14], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [7, 14, 7.5, 14.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "galaxy_nova_35",
+			"from": [7, 0, 15.125],
+			"to": [7.5, 2, 16.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.875, 7.875, 9.25]},
+			"faces": {
+				"north": {"uv": [0.5, 14, 1, 16], "texture": "#1"},
+				"east": {"uv": [0, 14, 1, 16], "texture": "#1"},
+				"south": {"uv": [0, 14, 0.5, 16], "texture": "#1"},
+				"west": {"uv": [1, 14, 0, 16], "texture": "#1"},
+				"up": {"uv": [0, 14, 1, 14.5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 15.5, 1, 16], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 0, 0],
+			"translation": [1.5, 13.5, 2.25],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, 0, 0],
+			"translation": [-1.5, 13.5, 2.25],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [50, 0, 0],
+			"translation": [1, 14, 4],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [50, 0, 0],
+			"translation": [-2, 14, 4],
+			"scale": [2, 2, 2]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"rotation": [0, -90, 0]
+		},
+		"head": {
+			"rotation": [-45, 0, 0],
+			"translation": [1.5, 6, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "galaxy_nova",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+		}
+	],
+	"overrides": [
+    	{
+      		"predicate": {
+      	  		"minecraft:pulling": 1
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_0"
+		},
+   	 	{
+			"predicate": {
+ 	  	     	"minecraft:pulling": 1,
+ 	  	     	"minecraft:pull": 0.3
+  	    	},
+  	    	"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_1"
+		},
+    	{
+      		"predicate": {
+        		"minecraft:pulling": 1,
+        		"minecraft:pull": 0.6
+      		},
+      		"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_2"
+    	},
+		{
+			"predicate": {
+					"minecraft:pulling": 1,
+					"minecraft:pull": 1.1
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_3"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 1.4
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_4"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 1.7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_5"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 2
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_6"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 2.3
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_7"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 2.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_8"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 2.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_9"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 3.2
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_10"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 3.5
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_11"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 3.8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_12"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 4.3
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_12"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 4.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_13"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 4.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_14"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 5.4
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_15"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 5.5
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_16"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 5.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_17"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 5.7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_18"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 5.8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_19"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 5.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_21"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_22"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 6.1
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_23"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 6.2
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_24"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 6.3
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_21"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 6.4
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_22"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 6.5
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_23"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 6.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_24"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 6.7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_21"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 6.8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_22"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 6.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_23"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_24"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 7.1
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_25"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 7.2
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_26"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 7.3
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_27"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 7.4
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_28"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 7.5
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_29"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 7.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_30"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 7.7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_31"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 7.8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_32"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 7.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_33"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_34"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 8.1
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_35"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 8.2
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_36"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 8.3
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_37"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 8.4
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_38"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 8.5
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_39"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 8.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_40"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 8.7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_41"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 8.8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_42"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 8.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_43"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_44"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 9.1
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_45"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 9.2
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_46"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 9.3
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_47"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 9.4
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_48"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 9.5
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_45"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 9.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_46"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 9.7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_47"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 9.8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_48"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 9.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_45"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 10
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_46"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 10.1
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_47"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 10.2
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_48"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 10.3
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_49"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 10.4
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_50"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 10.5
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_51"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 10.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_52"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 10.7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_53"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 10.8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_54"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 10.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_55"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 11
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_56"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 11.1
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_57"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 11.2
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_58"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 11.3
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_59"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 11.4
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_60"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 11.5
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_61"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 11.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_62"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 11.7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_63"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 11.8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_64"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 11.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_65"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 12
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_66"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 12.1
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_67"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 12.2
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_68"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 12.3
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_69"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 12.4
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_70"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 12.5
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_71"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 12.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_72"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 12.7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_69"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 12.8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_70"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 12.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_71"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 13
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_72"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 13.1
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_69"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 13.2
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_70"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 13.3
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_71"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 13.4
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_72"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 13.5
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_69"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 13.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_70"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 13.7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_71"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 13.8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_72"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 13.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_69"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 14
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_70"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 14.1
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_71"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 14.2
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_72"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 14.3
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_69"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 14.4
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_70"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 14.5
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_71"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 14.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_72"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 14.7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_69"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 14.8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_70"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 14.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_71"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 15
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_72"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 15.1
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_69"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 15.2
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_70"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 15.3
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_71"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 15.4
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_72"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 15.5
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_69"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 15.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_70"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 15.7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_71"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 15.8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_72"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 15.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_69"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 16
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_70"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 16.1
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_71"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 16.2
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_72"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 16.3
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_69"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 16.4
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_70"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 16.5
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_71"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 16.6
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_72"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 16.7
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_69"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 16.8
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_70"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 16.9
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_71"
+		},
+		{
+			"predicate": {
+				"minecraft:pulling": 1,
+				"minecraft:pull": 17
+			},
+			"model": "damkusweaponry:item/galaxy_nova_charging/galaxy_nova_charging_72"
+		}
+	]
+}

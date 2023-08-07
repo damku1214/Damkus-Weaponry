@@ -29,6 +29,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.TEHONITE_BLOCK.get());
                         pOutput.accept(ModBlocks.TEHONITE_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_TEHONITE_ORE.get());
+                        pOutput.accept(ModItems.GALAXY_NOVA.get());
+                        pOutput.accept(ModItems.SOUL_FIRE_CHARGE.get());
+                        pOutput.accept(ModItems.OVERCHARGED_CAPACITOR.get());
                     })
                     .build());
 

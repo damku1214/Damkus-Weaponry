@@ -44,7 +44,7 @@ public class JadeVineSickleItem extends SwordItem {
             List<LivingEntity> nearbyEntities = level.getNearbyEntities(LivingEntity.class, TargetingConditions.forCombat(), player,
                     player.getBoundingBox().inflate(4));
             // Hurt & apply Skandha's Curse on enemies on list
-            nearbyEntities.forEach(m -> m.hurt(m.damageSources().magic(), 5));
+            nearbyEntities.forEach(m -> m.hurt(m.damageSources().indirectMagic(entity, entity), 5));
             nearbyEntities.forEach(m -> m.addEffect(new MobEffectInstance(ModEffects.SKANDHAS_CURSE.get(), 500, 0)));
             // Play sound
             level.playSound(null, entity.getX(), entity.getY(), entity.getZ(), ModSounds.JADE_VINE_SICKLE_USE_SHORT.get(),
@@ -58,7 +58,7 @@ public class JadeVineSickleItem extends SwordItem {
             List<LivingEntity> nearbySkandhaEntities = level.getNearbyEntities(LivingEntity.class, TargetingConditions.forCombat(), player,
                     player.getBoundingBox().inflate(6));
             // Hurt enemies on list
-            nearbySkandhaEntities.forEach(m -> m.hurt(m.damageSources().magic(), 7));
+            nearbySkandhaEntities.forEach(m -> m.hurt(m.damageSources().indirectMagic(entity, entity), 7));
             // Hurt enemies with Skandha's Curse again (extra damage)
             nearbySkandhaEntities.stream().filter(m -> m.hasEffect(ModEffects.SKANDHAS_CURSE.get())).forEach(m -> m.setHealth(m.getHealth() - 4));
             // Play sound
