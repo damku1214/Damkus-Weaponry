@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "O": {
+      "item": "damkusweaponry:overcharged_capacitor"
+    }
+  },
+  "pattern": [
+    " II",
+    "NOL",
+    "CN "
+  ],
+  "result": {
+    "item": "damkusweaponry:galaxy_nova"
+  },
+  "show_notification": true
+}

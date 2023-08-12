@@ -179,6 +179,7 @@ public class GalaxyNovaItem extends SwordItem {
                 player.getBoundingBox().inflate(7));
         nearbyEntities.forEach(m -> m.hurt(m.damageSources().explosion(player, player), 50));
         player.hurt(player.damageSources().explosion(player, player), 50);
+        entity.level().explode(entity, entity.getX(), entity.getY(), entity.getZ(), 10.0F, Level.ExplosionInteraction.BLOCK);
         galaxyExplodeParticles(level, player);
     }
     

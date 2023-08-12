@@ -75,26 +75,20 @@ public class ModEvents {
         @SubscribeEvent
         public static void capacitorExplode(LivingDamageEvent event) {
             LivingEntity entity = event.getEntity();
-            ServerPlayer player = (ServerPlayer) entity;
-            ItemStack air = new ItemStack(Items.AIR);
-            Level level = entity.level();
-            Item mainhand = entity.getItemInHand(InteractionHand.MAIN_HAND).getItem();
-            Item offhand = entity.getItemInHand(InteractionHand.OFF_HAND).getItem();
-            if (mainhand instanceof OverchargedCapacitorItem || offhand instanceof OverchargedCapacitorItem) {
-                entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.GENERIC_EXPLODE,
-                        SoundSource.PLAYERS, 1.0F, 1F);
-                entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.SHIELD_BREAK,
-                        SoundSource.PLAYERS, 1.0F, 1F);
-                ((ServerLevel)entity.level()).sendParticles(ParticleTypes.EXPLOSION, entity.getX(), entity.getY(0.5D),
-                        entity.getZ(), 30, 0.2, 0.2, 0.2, 0.0D);
-                List<LivingEntity> nearbyEntities = level.getNearbyEntities(LivingEntity.class, TargetingConditions.forCombat(), player,
-                        player.getBoundingBox().inflate(2));
-                nearbyEntities.forEach(m -> m.hurt(m.damageSources().explosion(player, player), 30));
-                player.hurt(player.damageSources().explosion(player, player), 30);
-            } if (mainhand instanceof OverchargedCapacitorItem) {
-                entity.setItemInHand(InteractionHand.MAIN_HAND, air);
-            } else if (offhand instanceof OverchargedCapacitorItem) {
-                entity.setItemInHand(InteractionHand.OFF_HAND, air);
+            for (ItemStack weapon : entity.getHandSlots()) {
+                if (weapon.getItem() instanceof OverchargedCapacitorItem && !entity.level().isClientSide) {
+                    entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.GENERIC_EXPLODE,
+                            SoundSource.PLAYERS, 1.0F, 1F);
+                    entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.SHIELD_BREAK,
+                            SoundSource.PLAYERS, 1.0F, 1F);
+                    ((ServerLevel) entity.level()).sendParticles(ParticleTypes.EXPLOSION, entity.getX(), entity.getY(0.5D),
+                            entity.getZ(), 30, 0.2, 0.2, 0.2, 0.0D);
+                    List<LivingEntity> nearbyEntities = entity.level().getNearbyEntities(LivingEntity.class, TargetingConditions.forCombat(), entity,
+                            entity.getBoundingBox().inflate(2));
+                    nearbyEntities.forEach(m -> m.hurt(m.damageSources().explosion(entity, entity), 30));
+                    entity.level().explode(entity, entity.getX(), entity.getY(), entity.getZ(), 3.0F, Level.ExplosionInteraction.BLOCK);
+                    weapon.shrink(1);
+                }
             }
         }
     }
