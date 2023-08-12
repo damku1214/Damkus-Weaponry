@@ -58,7 +58,6 @@ public class GalaxyNovaItem extends SwordItem {
         }
         // Get fields for hands & air
         ItemStack air = new ItemStack(Items.AIR);
-        System.out.println(pStack.getDamageValue());
         // Break item if durability is negative
         if (pStack.getDamageValue() > 1999) {
             hurtAndBreak(1, entity, (entity1) -> {

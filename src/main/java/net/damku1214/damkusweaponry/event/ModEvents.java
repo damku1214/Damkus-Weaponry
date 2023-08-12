@@ -3,22 +3,28 @@ package net.damku1214.damkusweaponry.event;
 import net.damku1214.damkusweaponry.DamkusWeaponry;
 import net.damku1214.damkusweaponry.effect.ModEffects;
 import net.damku1214.damkusweaponry.item.ModItems;
+import net.damku1214.damkusweaponry.item.custom.OverchargedCapacitorItem;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.ai.targeting.TargetingConditions;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.event.entity.living.LivingDamageEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+
+import java.util.List;
 
 public class ModEvents {
 
@@ -69,21 +75,25 @@ public class ModEvents {
         @SubscribeEvent
         public static void capacitorExplode(LivingDamageEvent event) {
             LivingEntity entity = event.getEntity();
+            ServerPlayer player = (ServerPlayer) entity;
             ItemStack air = new ItemStack(Items.AIR);
+            Level level = entity.level();
             Item mainhand = entity.getItemInHand(InteractionHand.MAIN_HAND).getItem();
             Item offhand = entity.getItemInHand(InteractionHand.OFF_HAND).getItem();
-            Item capacitor = ModItems.OVERCHARGED_CAPACITOR.get();
-            if (mainhand.equals(capacitor) || offhand.equals(capacitor)) {
+            if (mainhand instanceof OverchargedCapacitorItem || offhand instanceof OverchargedCapacitorItem) {
                 entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.GENERIC_EXPLODE,
                         SoundSource.PLAYERS, 1.0F, 1F);
                 entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.SHIELD_BREAK,
                         SoundSource.PLAYERS, 1.0F, 1F);
                 ((ServerLevel)entity.level()).sendParticles(ParticleTypes.EXPLOSION, entity.getX(), entity.getY(0.5D),
                         entity.getZ(), 30, 0.2, 0.2, 0.2, 0.0D);
-                entity.hurt(entity.damageSources().explosion(entity, entity), 30);
-            } if (mainhand.equals(capacitor)) {
+                List<LivingEntity> nearbyEntities = level.getNearbyEntities(LivingEntity.class, TargetingConditions.forCombat(), player,
+                        player.getBoundingBox().inflate(2));
+                nearbyEntities.forEach(m -> m.hurt(m.damageSources().explosion(player, player), 30));
+                player.hurt(player.damageSources().explosion(player, player), 30);
+            } if (mainhand instanceof OverchargedCapacitorItem) {
                 entity.setItemInHand(InteractionHand.MAIN_HAND, air);
-            } else if (offhand.equals(capacitor)) {
+            } else if (offhand instanceof OverchargedCapacitorItem) {
                 entity.setItemInHand(InteractionHand.OFF_HAND, air);
             }
         }
